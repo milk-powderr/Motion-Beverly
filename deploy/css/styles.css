@@ -12,7 +12,9 @@ html {
 ============= */
 :root {
   --white: #fff;
+  --whiteo: 255,255,255;
   --black: #000;
+  --blacko: 0,0,0;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -331,7 +333,12 @@ template {
     Typography
 ============= */
 body {
+  font-family: "Roboto", sans-serif;
   font-family: "VT323", monospace;
+}
+
+h1 {
+  margin: 0;
 }
 
 /* =============
@@ -364,3 +371,25 @@ textarea {
 /* =============
     Footer
 ============= */
+#hero {
+  background-image: url("../img/hero.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+#hero #overlay {
+  background-color: rgba(var(--blacko), 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#hero #overlay h1 {
+  color: var(--white);
+  font-size: 5.625rem;
+  font-family: "Roboto", sans-serif;
+}
+#hero #overlay h1 span {
+  font-family: "VT323", monospace;
+}
