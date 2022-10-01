@@ -330,6 +330,10 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "VT323", monospace;
+}
+
 /* =============
     Buttons
 ============= */
