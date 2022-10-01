@@ -393,3 +393,6 @@ textarea {
 #hero #overlay h1 span {
   font-family: "VT323", monospace;
 }
+#hero #overlay button {
+  border: none;
+}
