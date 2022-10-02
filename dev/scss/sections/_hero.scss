@@ -26,8 +26,13 @@
             background-color: var(--blue);
             color: var(--yellow);
             font-size: rem-calc(60);
+            border-radius: 15px;
+            cursor: pointer;
+            padding: 8px 20px;
 
+            i{
+                margin-left: 10px;
+            }
         }
-        
     }
 }
