@@ -13,16 +13,20 @@
         text-align: center;
 
         h1{
-            color: var(--white);
+            color: var(--yellow);
             font-size: rem-calc(90);
-            font-family: 'Roboto', sans-serif;
 
             span{
                 font-family: 'VT323', monospace;
             }
         }
+
         button{
             border: none;
+            background-color: var(--blue);
+            color: var(--yellow);
+            font-size: rem-calc(60);
+
         }
         
     }

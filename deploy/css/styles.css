@@ -13,8 +13,10 @@ html {
 :root {
   --white: #fff;
   --whiteo: 255,255,255;
-  --black: #000;
+  --black: rgb(0, 0, 0);
   --blacko: 0,0,0;
+  --blue: #1948a7;
+  --yellow: #ffcc00;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -386,13 +388,15 @@ textarea {
   text-align: center;
 }
 #hero #overlay h1 {
-  color: var(--white);
+  color: var(--yellow);
   font-size: 5.625rem;
-  font-family: "Roboto", sans-serif;
 }
 #hero #overlay h1 span {
   font-family: "VT323", monospace;
 }
 #hero #overlay button {
   border: none;
+  background-color: var(--blue);
+  color: var(--yellow);
+  font-size: 3.75rem;
 }
