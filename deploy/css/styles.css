@@ -17,6 +17,13 @@ html {
   --blacko: 0,0,0;
   --blue: #1948a7;
   --yellow: #ffcc00;
+  --red: #f31612;
+  --orange: #ff8000;
+  --green: #5aeb12;
+  --bluee: #12b8eb;
+  --purple: #7412eb;
+  --indigo: #d512eb;
+  --pink: #fd018c;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -417,7 +424,7 @@ textarea {
 #hero #overlay button {
   border: none;
   background-color: var(--blue);
-  color: var(--yellow);
+  color: var(--color);
   font-size: 1.5625rem;
   border-radius: 15px;
   cursor: pointer;
