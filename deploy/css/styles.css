@@ -375,9 +375,19 @@ textarea {
 ============= */
 #hero {
   background-image: url("../img/hero.jpg");
-  height: 80vh;
+  height: 60vh;
   background-size: cover;
   background-position: center;
+}
+@media (min-width: 768px) {
+  #hero {
+    height: 70vh;
+  }
+}
+@media (min-width: 1024px) {
+  #hero {
+    height: 80vh;
+  }
 }
 #hero #overlay {
   background-color: rgba(var(--blacko), 0.5);
@@ -389,7 +399,17 @@ textarea {
 }
 #hero #overlay h1 {
   color: var(--yellow);
-  font-size: 5.625rem;
+  font-size: 1.875rem;
+}
+@media (min-width: 768px) {
+  #hero #overlay h1 {
+    font-size: 3.125rem;
+  }
+}
+@media (min-width: 1024px) {
+  #hero #overlay h1 {
+    font-size: 5.625rem;
+  }
 }
 #hero #overlay h1 span {
   font-family: "VT323", monospace;
@@ -398,11 +418,41 @@ textarea {
   border: none;
   background-color: var(--blue);
   color: var(--yellow);
-  font-size: 3.75rem;
+  font-size: 1.5625rem;
   border-radius: 15px;
   cursor: pointer;
-  padding: 8px 20px;
+  padding: 6px 10px;
+  border-radius: 7px;
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  #hero #overlay button {
+    font-size: 2.5rem;
+    border-radius: 12px;
+    margin-top: 30px;
+    padding: 8px 20px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero #overlay button {
+    font-size: 3.75rem;
+    border-radius: 15px;
+    margin-top: 35px;
+    padding: 8px 20px;
+  }
 }
 #hero #overlay button i {
   margin-left: 10px;
+  text-align: center;
+  font-size: 0.9375rem;
+}
+@media (min-width: 768px) {
+  #hero #overlay button i {
+    font-size: 1.5625rem;
+  }
+}
+@media (min-width: 1024px) {
+  #hero #overlay button i {
+    font-size: 2.25rem;
+  }
 }
