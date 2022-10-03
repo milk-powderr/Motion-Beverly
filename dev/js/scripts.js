@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 
-gsap.from("#create-btn i",{duration: 1, rotation:45, delay:0.5, repeat:-1});
+gsap.from("#create-btn i",{duration: 1, alpha:0, rotation:45, delay:0.5});
 
 var tl = gsap.timeline( {repeat:-1} );
  
