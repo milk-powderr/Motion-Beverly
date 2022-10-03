@@ -48,7 +48,10 @@
             border-radius: 7px;
             margin-top: 25px;
 
-
+            &:hover {
+                background-position: 0;
+                color: var(--color);
+          }
 
             @include md{
                 font-size: rem-calc(40);
