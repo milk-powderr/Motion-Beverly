@@ -1,15 +1,21 @@
 import { gsap } from "gsap";
 
 
-var tl = gsap.timeline( {repeat:-1, repeatDelay: 0.1} );
+gsap.from("#create-btn i",{duration: 1, rotation:45, delay:0, repeat:-1});
+
+var tl = gsap.timeline( {repeat:-1} );
  
 tl
-
-  .to ( '#overlay', { '--color': 'var(--red'})
-  .to ( '#overlay', { '--color': 'var(--orange'})
-  .to ( '#overlay', { '--color': 'var(--yellow'})
-  .to ( '#overlay', { '--color': 'var(--green'})
-  .to ( '#overlay', { '--color': 'var(--bluee'})
-  .to ( '#overlay', { '--color': 'var(--purple'})
-  .to ( '#overlay', { '--color': 'var(--indigo'})
-  .to ( '#overlay', { '--color': 'var(--pink'})
+  .to ( '#overlay', { '--color': 'red'})
+  .to ( '#overlay', { '--color': 'orange'})
+  .to ( '#overlay', { '--color': 'yellow'})
+  .to ( '#overlay', { '--color': 'lime'})
+  .to ( '#overlay', { '--color': 'aqua'})
+  .to ( '#overlay', { '--color': 'blue'})
+  .to ( '#overlay', { '--color': 'purple'})
+  .to ( '#overlay', { '--color': 'blue'})
+  .to ( '#overlay', { '--color': 'aqua'})
+  .to ( '#overlay', { '--color': 'lime'})
+  .to ( '#overlay', { '--color': 'yellow'})
+  .to ( '#overlay', { '--color': 'orange'})
+  .to ( '#overlay', { '--color': 'red'})
