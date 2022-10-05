@@ -10,10 +10,7 @@ tl
   .to ( '#overlay', { '--color': 'yellow'})
   .to ( '#overlay', { '--color': 'lime'})
   .to ( '#overlay', { '--color': 'aqua'})
-  .to ( '#overlay', { '--color': 'blue'})
-  .to ( '#overlay', { '--color': 'purple'})
-  .to ( '#overlay', { '--color': 'blue'})
-  .to ( '#overlay', { '--color': 'aqua'})
+
   .to ( '#overlay', { '--color': 'lime'})
   .to ( '#overlay', { '--color': 'yellow'})
   .to ( '#overlay', { '--color': 'orange'})
