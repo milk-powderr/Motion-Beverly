@@ -1,9 +1,5 @@
 import { gsap } from "gsap";
 gsap.set("#create-btn i",{transformOrigin:"center bottom"});
-
-gsap.from("#first-line",{duration: 1, alpha:0, y:-100});
-gsap.from("#second-line",{duration: 1, alpha:0, y:-70, delay:0.5});
-gsap.from("#create-btn",{duration: 1, y:50, delay:0.75, alpha:0});
 gsap.from("#create-btn i",{duration: 1, rotation:20, delay:0, repeat:-1, yoyo:true});
 
 var tl = gsap.timeline( {repeat:-1, delay:0} );
