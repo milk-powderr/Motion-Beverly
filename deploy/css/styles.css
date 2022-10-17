@@ -454,21 +454,6 @@ textarea {
     padding: 15px 30px;
   }
 }
-#hero #overlay button i {
-  margin-left: 10px;
-  text-align: center;
-  font-size: 0.9375rem;
-}
-@media (min-width: 768px) {
-  #hero #overlay button i {
-    font-size: 1.5625rem;
-  }
-}
-@media (min-width: 1024px) {
-  #hero #overlay button i {
-    font-size: 2.25rem;
-  }
-}
 
 #updates {
   margin-top: 60px;
@@ -578,9 +563,13 @@ textarea {
   background: linear-gradient(90deg, rgb(255, 216, 161) 0%, rgb(255, 255, 255) 100%);
   padding-bottom: 45px;
   padding-top: 45px;
+  padding-left: 10%;
   color: white;
   text-align: left;
   align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   #units #content h2 {
@@ -590,21 +579,27 @@ textarea {
 @media (min-width: 1024px) {
   #units #content h2 {
     font-size: rem-cal(70);
-    padding-left: 10%;
-    margin-bottom: 300px;
   }
+}
+#units #content h2 .fine {
+  float: left;
+  cursor: pointer;
 }
 #units #content h2 .eichi {
   float: right;
+  cursor: pointer;
 }
 #units #content h2 .wataru {
   float: right;
+  cursor: pointer;
 }
 #units #content h2 .tori {
   float: right;
+  cursor: pointer;
 }
 #units #content h2 .yuzuru {
   float: right;
+  cursor: pointer;
 }
 #units #content h3 {
   font-size: 3.125rem;
@@ -614,6 +609,10 @@ textarea {
   color: white;
   text-align: left;
   align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 30px;
+  padding-left: 10%;
 }
 @media (min-width: 768px) {
   #units #content h3 {
@@ -623,12 +622,72 @@ textarea {
 @media (min-width: 1024px) {
   #units #content h3 {
     font-size: rem-cal(70);
-    padding-left: 10%;
   }
+}
+#units #content h3 .trickstar {
+  float: left;
+  cursor: pointer;
 }
 #units #content h3 .hokke {
   float: right;
+  cursor: pointer;
 }
 #units #content h3 .subaru {
   float: right;
+  cursor: pointer;
+}
+#units #content h3 .yuki {
+  float: right;
+  cursor: pointer;
+}
+#units #content h3 .sally {
+  float: right;
+  cursor: pointer;
+}
+#units #content h4 {
+  font-size: 3.125rem;
+  background: linear-gradient(90deg, #E60033 0%, rgb(255, 255, 255) 100%);
+  padding-bottom: 45px;
+  padding-top: 45px;
+  color: white;
+  text-align: left;
+  align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 30px;
+  padding-left: 10%;
+}
+@media (min-width: 768px) {
+  #units #content h4 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content h4 {
+    font-size: rem-cal(70);
+  }
+}
+#units #content h4 .ryuseitai {
+  float: left;
+  cursor: pointer;
+}
+#units #content h4 .chiaki {
+  float: right;
+  cursor: pointer;
+}
+#units #content h4 .kanata {
+  float: right;
+  cursor: pointer;
+}
+#units #content h4 .tetora {
+  float: right;
+  cursor: pointer;
+}
+#units #content h4 .midori {
+  float: right;
+  cursor: pointer;
+}
+#units #content h4 .shinobu {
+  float: right;
+  cursor: pointer;
 }

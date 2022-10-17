@@ -67,20 +67,6 @@
                 margin-top: 35px;
                 padding: 15px 30px;
             }
-
-            i{
-                margin-left: 10px;
-                text-align: center;
-                font-size: rem-calc(15);
-    
-            @include md{
-                    font-size: rem-calc(25);
-            }    
-
-            @include lg{
-                font-size: rem-calc(36);
-            }  
-            }
         }
     }
 }

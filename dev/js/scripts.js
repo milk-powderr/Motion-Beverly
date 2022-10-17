@@ -1,14 +1,39 @@
-import { gsap } from "gsap";
 
-let createBtn = document.querySelector("#create-btn");
-createBtn.addEventListener("mouseover",function(){
-  gsap.to("#create-btn",{duration:1, scale:2});
-  gsap.to("#create-btn i",{duration: 1, rotateY:20});
-  gsap.to("#first-line",{duration: 1, alpha:0, y:50});
+import { gsap } from "gsap";
+gsap.set("#pre-register-btn",{transformOrigin:"center bottom"});
+gsap.from("#pre-register-btn i",{duration: 1, rotation:20, delay:0, repeat:-1, yoyo:true});
+
+function heroAnimation(){
+    var tl = gsap.timeline();
+    tl.from("#first-line",{duration: 1, alpha:0, y:-100})
+      .from("#pre-register-btn",{duration: 1, alpha:0, y:50})
+    return tl;
+}
+
+var mainTL = gsap.timeline();
+mainTL.add(heroAnimation());
+var heroSizeNumber = 1;
+let mm = gsap.matchMedia();
+mm.add("(min-width: 768px)", () => {
+  heroSizeNumber = 2;
+});
+mm.add("(max-width: 767px)", () => {
+  heroSizeNumber = 1.25;
+});
+
+let registerBtn = document.querySelector("#pre-register-btn");
+var buttonAnimation = gsap.timeline({paused:true});
+buttonAnimation.to("#pre-register-btn",{duration:0.25, scale:heroSizeNumber},"goAway")
+.to("#first-line",{duration: 1, alpha:0, y:50},"goAway")
+.to("#fine", {
+  opacity: 100, 
+  x: 40, 
+  duration: 1
 })
 
-createBtn.addEventListener("mouseout",function(){
-  gsap.to("#create-btn",{duration:1, scale:1});
-  gsap.to("#create-btn i",{duration: 1, rotateY:0});
-  gsap.to("#first-line",{duration: 1, alpha:1, y:0});
+registerBtn.addEventListener("mouseover",function(){
+   buttonAnimation.play();
+})
+registerBtn.addEventListener("mouseout",function(){
+    buttonAnimation.reverse();
 })
