@@ -1,36 +1,36 @@
 
-import { gsap } from "gsap";
-gsap.set("#pre-register-btn",{transformOrigin:"center bottom"});
-gsap.from("#pre-register-btn i",{duration: 1, rotation:20, delay:0, repeat:-1, yoyo:true});
 
-function heroAnimation(){
-    var tl = gsap.timeline();
-    tl.from("#first-line",{duration: 1, alpha:0, y:-100})
-      .from("#pre-register-btn",{duration: 1, alpha:0, y:50})
-      .from("#fine", {opacity: 0, x: -100, duration: 1})
-    return tl;
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.set("#pre-register-btn",{transformOrigin:"center bottom"})
+
+var registerButtonTL = gsap.timeline({paused:true});
+    registerButtonTL
+    .to("#first-line",{duration: 1, alpha:0, y:50},"trigger")
+    .to("#pre-register-btn i",{duration: 1, rotation:20, delay:0, repeat:-1, yoyo:true},"trigger") 
+    .to("#pre-register-btn",{duration:0.5 , y:100, scale:2},"-=.5");
+
+
+var preregisterBtn = document.querySelector("#pre-register-btn");
+
+preregisterBtn.addEventListener("mouseover",function(){
+  registerButtonTL.play();
+})
+
+preregisterBtn.addEventListener("mouseout",function(){
+  registerButtonTL.reverse();
+})
+
+function registerAnimation(){
+  var tl = gsap.timeline();
+  tl.from("#first-line",{duration:1, y:-100})
+  .from("#pre-register-btn",{duration:0.5, y:100, alpha:0, scale:2},"-=.5")
+  .from("#pre-register-btn i",{duration: 1, rotation:20, delay:0, repeat:-1, yoyo:true});
+  return tl;
 }
 
-var mainTL = gsap.timeline();
-mainTL.add(heroAnimation());
-var heroSizeNumber = 1;
-let mm = gsap.matchMedia();
-mm.add("(min-width: 768px)", () => {
-  heroSizeNumber = 2;
-});
-mm.add("(max-width: 767px)", () => {
-  heroSizeNumber = 1.25;
-});
-
-let registerBtn = document.querySelector("#pre-register-btn", "#fine");
-var buttonAnimation = gsap.timeline({paused:true});
-buttonAnimation.to("#pre-register-btn",{duration:0.25, scale:heroSizeNumber},"goAway")
-.to("#first-line",{duration: 1, alpha:0, y:50},"goAway")
-.to("#fine", {opacity: 100, x: 0, duration: 1})
-
-registerBtn.addEventListener("mouseover",function(){
-   buttonAnimation.play();
-})
-registerBtn.addEventListener("mouseout",function(){
-    buttonAnimation.reverse();
-})
+var mainTimeline = gsap.timeline();
+mainTimeline.add(registerAnimation());
