@@ -358,6 +358,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/nazuna.png" : {
+      "ft" : 32768,
+      "iS" : 39105,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/nazuna.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/nikki.png" : {
       "ft" : 32768,
       "iS" : 664991,
@@ -462,6 +475,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/shinonon.png" : {
+      "ft" : 32768,
+      "iS" : 46403,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/shinonon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/shu.png" : {
       "ft" : 32768,
       "iS" : 49332,
@@ -501,11 +527,37 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/tenma.png" : {
+      "ft" : 32768,
+      "iS" : 46577,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/tenma.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/tetora.png" : {
       "ft" : 32768,
       "iS" : 40807,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/tetora.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/tomoya.png" : {
+      "ft" : 32768,
+      "iS" : 40475,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/tomoya.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
