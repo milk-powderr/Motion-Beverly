@@ -1,8 +1,9 @@
 #hero{
-    background-image: url("../img/hero.jpg");
+    background-image: url("../img/idol.jpg");
     height: 60vh;
     background-size: cover;
     background-position: center;
+    position: relative;
 
     @include md{
         height: 70vh;
@@ -10,6 +11,14 @@
 
     @include lg{
         height: 80vh;
+    }
+
+    #gradient{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0.15379992603550297) 0%, rgba(255,255,255,0) 63%, rgba(255,255,255,1) 100%);
     }
 
     #overlay{
@@ -21,19 +30,19 @@
         text-align: center;
 
         h1{
-            color: var(--yellow);
+            color: var(--white);
             font-size: rem-calc(30);
 
             @include md{
-                font-size: rem-calc(50);
+                font-size: rem-calc(40);
             }
 
             @include lg{
-                font-size: rem-calc(90);
+                font-size: rem-calc(60);
             }
 
             span{
-                font-family: 'VT323', monospace;
+                font-family: 'Lato', sans-serif;
             }
         }
 
@@ -42,29 +51,21 @@
             background-color: var(--blue);
             color: var(--yellow);
             font-size: rem-calc(25);
-            border-radius: 15px;
             cursor: pointer;
-            padding: 6px 10px;
+            padding: 12px 20px;
             border-radius: 7px;
             margin-top: 25px;
 
-            &:hover {
-                background-position: 0;
-                color: var(--color);
-          }
-
             @include md{
-                font-size: rem-calc(40);
-                border-radius: 12px;
+                font-size: rem-calc(30);
                 margin-top: 30px;
-                padding: 8px 20px;
+                padding: 15px 30px;
             }
 
             @include lg{
-                font-size: rem-calc(60);
-                border-radius: 15px;
+                font-size: rem-calc(40);
                 margin-top: 35px;
-                padding: 8px 20px;
+                padding: 15px 30px;
             }
 
             i{
