@@ -777,7 +777,7 @@ textarea {
   float: right;
   cursor: pointer;
 }
-#units #content #valkyrie-line {
+#units #content .valkyrie-line {
   font-size: 3.125rem;
   background: linear-gradient(90deg, #8C2246 0%, rgb(255, 255, 255) 100%);
   padding-bottom: 45px;
@@ -792,24 +792,24 @@ textarea {
   flex-direction: row;
 }
 @media (min-width: 768px) {
-  #units #content #valkyrie-line {
+  #units #content .valkyrie-line {
     font-size: 3.75rem;
   }
 }
 @media (min-width: 1024px) {
-  #units #content #valkyrie-line {
+  #units #content .valkyrie-line {
     font-size: rem-cal(70);
   }
 }
-#units #content #valkyrie-line #valkyrie {
+#units #content .valkyrie-line #valkyrie {
   float: left;
   cursor: pointer;
 }
-#units #content #valkyrie-line .shu {
+#units #content .valkyrie-line .shu {
   float: right;
   cursor: pointer;
 }
-#units #content #valkyrie-line .mika {
+#units #content .valkyrie-line .mika {
   float: right;
   cursor: pointer;
 }
