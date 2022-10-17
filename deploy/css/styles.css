@@ -581,7 +581,7 @@ textarea {
     font-size: rem-cal(70);
   }
 }
-#units #content h2 .fine {
+#units #content h2 #fine {
   float: left;
   cursor: pointer;
 }
@@ -688,6 +688,128 @@ textarea {
   cursor: pointer;
 }
 #units #content h4 .shinobu {
+  float: right;
+  cursor: pointer;
+}
+#units #content h5 {
+  font-size: 3.125rem;
+  background: linear-gradient(90deg, #2BB7CA 0%, rgb(255, 255, 255) 100%);
+  padding-bottom: 45px;
+  padding-top: 45px;
+  color: white;
+  text-align: left;
+  align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 30px;
+  padding-left: 10%;
+}
+@media (min-width: 768px) {
+  #units #content h5 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content h5 {
+    font-size: rem-cal(70);
+  }
+}
+#units #content h5 #alkaloid {
+  float: left;
+  cursor: pointer;
+}
+#units #content h5 .hiiro {
+  float: right;
+  cursor: pointer;
+}
+#units #content h5 .aira {
+  float: right;
+  cursor: pointer;
+}
+#units #content h5 .mayoi {
+  float: right;
+  cursor: pointer;
+}
+#units #content h5 .tatsumi {
+  float: right;
+  cursor: pointer;
+}
+#units #content h6 {
+  font-size: 3.125rem;
+  background: linear-gradient(90deg, #5F5B5D 0%, rgb(255, 255, 255) 100%);
+  padding-bottom: 45px;
+  padding-top: 45px;
+  color: white;
+  text-align: left;
+  align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 30px;
+  padding-left: 10%;
+}
+@media (min-width: 768px) {
+  #units #content h6 {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content h6 {
+    font-size: rem-cal(70);
+  }
+}
+#units #content h6 #eden {
+  float: left;
+  cursor: pointer;
+}
+#units #content h6 .nagisa {
+  float: right;
+  cursor: pointer;
+}
+#units #content h6 .hiyori {
+  float: right;
+  cursor: pointer;
+}
+#units #content h6 .ibara {
+  float: right;
+  cursor: pointer;
+}
+#units #content h6 .jun {
+  float: right;
+  cursor: pointer;
+}
+#units #content #valkyrie-line {
+  font-size: 3.125rem;
+  background: linear-gradient(90deg, #8C2246 0%, rgb(255, 255, 255) 100%);
+  padding-bottom: 45px;
+  padding-top: 45px;
+  color: white;
+  text-align: left;
+  align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 30px;
+  padding-left: 10%;
+  flex-direction: row;
+}
+@media (min-width: 768px) {
+  #units #content #valkyrie-line {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content #valkyrie-line {
+    font-size: rem-cal(70);
+  }
+}
+#units #content #valkyrie-line #valkyrie {
+  float: left;
+  cursor: pointer;
+}
+#units #content #valkyrie-line .shu {
+  float: right;
+  cursor: pointer;
+}
+#units #content #valkyrie-line .mika {
   float: right;
   cursor: pointer;
 }
