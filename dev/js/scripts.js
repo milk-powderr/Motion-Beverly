@@ -12,8 +12,8 @@ function heroAnimation(){
 
 function fineIdolsAnimation(){
   var tl = gsap.timeline();
-  tl.from("#fine",{duration: 1, y: 0})
-    .from("#fine-idols",{duration: 1, alpha:0, y:-100})
+  tl.from("#fine",{duration: 1, alpha:0, y:-100})
+    .from("#pre-register-btn",{duration: 1, alpha:0, y:-100})
   return tl;
 }
 
@@ -39,7 +39,6 @@ buttonAnimation.to("#pre-register-btn",{duration:1, scale:heroSizeNumber},"goAwa
 let logo = document.querySelector("#fine-idols");
 var fineIdolsAnimation = gsap.timeline({paused:true});
 fineIdolsAnimation.to("#fine-idols",{duration: 1, y:0, opacity: 100},"goAway")
-.to("#fine",{duration: 1, y: 0})
 
 
 
