@@ -7,6 +7,7 @@ function heroAnimation(){
     var tl = gsap.timeline();
     tl.from("#first-line",{duration: 1, alpha:0, y:-100})
       .from("#pre-register-btn",{duration: 1, alpha:0, y:50})
+      .from("#fine", {opacity: 0, x: -700, duration: 1})
     return tl;
 }
 
@@ -25,11 +26,7 @@ let registerBtn = document.querySelector("#pre-register-btn");
 var buttonAnimation = gsap.timeline({paused:true});
 buttonAnimation.to("#pre-register-btn",{duration:0.25, scale:heroSizeNumber},"goAway")
 .to("#first-line",{duration: 1, alpha:0, y:50},"goAway")
-.to("#fine", {
-  opacity: 100, 
-  x: 40, 
-  duration: 1
-})
+.to("#fine", {opacity: 100, x: 0, duration: 1})
 
 registerBtn.addEventListener("mouseover",function(){
    buttonAnimation.play();
