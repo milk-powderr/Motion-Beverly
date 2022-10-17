@@ -41,18 +41,19 @@
             }
         }
 
-        h2{
+        .fine-line{
             font-size: rem-calc(50);
             background: linear-gradient(90deg, rgba(255,216,161,1) 0%, rgba(255,255,255,1) 100%);
             padding-bottom: 45px;
             padding-top: 45px;
             padding-left: 10%;
+            padding-right: 5%;
             color: white;
             text-align: left;
             align-items: baseline;
             cursor: pointer;
             height: 300px;
-            margin-bottom: 30px;
+            margin-bottom: 90px;
 
             @include md{
                 font-size: rem-calc(60);
@@ -65,6 +66,7 @@
             #fine {
                 float: left;
                 cursor: pointer;
+                padding-top: 60px;
             }
 
             .eichi {
@@ -88,7 +90,7 @@
             }
         }
 
-        h3{
+        .trickstar-line{
             font-size: rem-calc(50);
             background: linear-gradient(90deg, #FF8B0B 0%, rgba(255,255,255,1) 100%);
             padding-bottom: 45px;
@@ -98,8 +100,9 @@
             align-items: baseline;
             cursor: pointer;
             height: 300px;
-            margin-bottom: 30px;
             padding-left: 10%;
+            padding-right: 5%;
+            margin-bottom: 90px;
 
             @include md{
                 font-size: rem-calc(60);
@@ -109,9 +112,10 @@
                 font-size: rem-cal(70);
             }
 
-            .trickstar {
+            #trickstar {
                 float: left;
                 cursor: pointer;
+                padding-top: 60px;
             }
 
             .hokke {
@@ -135,7 +139,7 @@
             }
         }
 
-        h4{
+        .ryuseitai-line{
             font-size: rem-calc(50);
             background: linear-gradient(90deg, #E60033 0%, rgba(255,255,255,1) 100%);
             padding-bottom: 45px;
@@ -145,8 +149,9 @@
             align-items: baseline;
             cursor: pointer;
             height: 300px;
-            margin-bottom: 30px;
+            margin-bottom: 90px;
             padding-left: 10%;
+            padding-right: 5%;
 
             @include md{
                 font-size: rem-calc(60);
@@ -159,6 +164,7 @@
             .ryuseitai {
                 float: left;
                 cursor: pointer;
+                padding-top: 70px;
             }
 
             .chiaki {
@@ -187,7 +193,7 @@
             }
     }
 
-    h5{
+        .alkaloid-line{
         font-size: rem-calc(50);
         background: linear-gradient(90deg, #2BB7CA 0%, rgba(255,255,255,1) 100%);
         padding-bottom: 45px;
@@ -197,8 +203,9 @@
         align-items: baseline;
         cursor: pointer;
         height: 300px;
-        margin-bottom: 30px;
+        margin-bottom: 90px;
         padding-left: 10%;
+        padding-right: 5%;
 
         @include md{
             font-size: rem-calc(60);
@@ -211,6 +218,7 @@
         #alkaloid {
             float: left;
             cursor: pointer;
+            padding-top: 115px;
         }
 
         .hiiro {
@@ -234,7 +242,7 @@
         }
 }
 
-h6{
+        .eden-line{
     font-size: rem-calc(50);
     background: linear-gradient(90deg, #5F5B5D 0%, rgba(255,255,255,1) 100%);
     padding-bottom: 45px;
@@ -244,8 +252,9 @@ h6{
     align-items: baseline;
     cursor: pointer;
     height: 300px;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
     padding-left: 10%;
+    padding-right: 5%;
 
     @include md{
         font-size: rem-calc(60);
@@ -258,6 +267,7 @@ h6{
     #eden {
         float: left;
         cursor: pointer;
+        padding-top: 45px;
     }
 
     .nagisa {
@@ -281,7 +291,7 @@ h6{
     }
 }
 
-.valkyrie-line{
+        .valkyrie-line{
     font-size: rem-calc(50);
     background: linear-gradient(90deg, #8C2246 0%, rgba(255,255,255,1) 100%);
     padding-bottom: 45px;
@@ -291,9 +301,9 @@ h6{
     align-items: baseline;
     cursor: pointer;
     height: 300px;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
     padding-left: 10%;
-    flex-direction: row;
+    padding-right: 5%;
 
     @include md{
         font-size: rem-calc(60);
@@ -306,6 +316,7 @@ h6{
     #valkyrie {
         float: left;
         cursor: pointer;
+        padding-top: 100px;
     }
 
     .shu {
@@ -317,7 +328,94 @@ h6{
         float: right;
         cursor: pointer;
     }
+}
 
+        .twink-line{
+    font-size: rem-calc(50);
+    background: linear-gradient(90deg, #FF3B9A 0%, rgba(255,255,255,1) 100%);
+    padding-bottom: 45px;
+    padding-top: 45px;
+    color: white;
+    text-align: left;
+    align-items: baseline;
+    cursor: pointer;
+    height: 300px;
+    margin-bottom: 90px;
+    padding-left: 10%;
+    padding-right: 5%;
+
+    @include md{
+        font-size: rem-calc(60);
+    }
+
+    @include lg{
+        font-size: rem-cal(70);
+    }
+
+    #twink {
+        float: left;
+        cursor: pointer;
+        padding-top: 45px;
+    }
+
+    .hinata {
+        float: right;
+        cursor: pointer;
+    }
+
+    .yuta {
+        float: right;
+        cursor: pointer;
+    }
+}
+
+        .crazyb-line{
+    font-size: rem-calc(50);
+    background: linear-gradient(90deg, #FFD400 0%, rgba(255,255,255,1) 100%);
+    padding-bottom: 45px;
+    padding-top: 45px;
+    color: white;
+    text-align: left;
+    align-items: baseline;
+    cursor: pointer;
+    height: 300px;
+    margin-bottom: 90px;
+    padding-left: 10%;
+    padding-right: 5%;
+
+    @include md{
+        font-size: rem-calc(60);
+    }
+
+    @include lg{
+        font-size: rem-cal(70);
+    }
+
+    #crazyb {
+        float: left;
+        cursor: pointer;
+        padding-top: 45px;
+    }
+
+    .rinne {
+        float: right;
+        cursor: pointer;
+    }
+
+    .himeru {
+        float: right;
+        cursor: pointer;
+    }
+
+    .kohaku{
+        float: right;
+        cursor: pointer;
+    }
+
+    .nikkishiina {
+        float: right;
+        cursor: pointer;
+    }
 }
 }
 }
