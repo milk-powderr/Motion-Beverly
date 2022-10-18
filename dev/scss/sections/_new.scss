@@ -43,6 +43,7 @@
         #doublefaceimage {
             padding-top: 50px;
             width: 80%;
+            overflow: hidden;
 
             @include md{
                 width: 75%;

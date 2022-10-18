@@ -500,6 +500,7 @@ textarea {
 #updates #content #nikki_bday {
   padding-top: 50px;
   width: 80%;
+  overflow: hidden;
 }
 @media (min-width: 768px) {
   #updates #content #nikki_bday {
@@ -1749,6 +1750,7 @@ textarea {
 #new #doubleface #doublefaceimage {
   padding-top: 50px;
   width: 80%;
+  overflow: hidden;
 }
 @media (min-width: 768px) {
   #new #doubleface #doublefaceimage {

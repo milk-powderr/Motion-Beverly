@@ -33,7 +33,7 @@ function registerAnimation(){
 
 function nikkiAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#nikki_bday", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#nikki_bday",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#nikki_bday",{duration:1, scale:1, x:"-=-200%"});
   return tl;
 }
 
@@ -333,8 +333,7 @@ function mamaAnimation(){
 
 function doublefaceAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger:"#new_stuff", scrub: true, start:"top 80%", end:"bottom 40%", markers: false}});
-
-  tl.from("#doublefaceimage",{duration:1, clipPath:"inset(0 50%)"},"same");
+  tl.from("#doublefaceimage",{duration:1, scale:1, x:"-=200%"},"same");
   return tl;
 }
 
