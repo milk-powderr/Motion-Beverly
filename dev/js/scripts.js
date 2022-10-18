@@ -333,6 +333,13 @@ function mamaAnimation(){
   return tl;
 }
 
+function doublefaceAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:"#new_stuff", scrub: true, start:"top 80%", end:"bottom 40%", markers: false}});
+
+  tl.from("#doublefaceimage",{duration:1, clipPath:"inset(0 50%)"},"same");
+  return tl;
+}
+
 var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
             .add(nikkiAnimation())
@@ -385,4 +392,5 @@ mainTimeline.add(registerAnimation())
             .add(tsumugiAnimation())
             .add(soraAnimation())
             .add(mamaAnimation())
+            .add(doublefaceAnimation())
             ;
