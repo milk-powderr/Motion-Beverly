@@ -309,6 +309,30 @@ function arashiAnimation(){
   return tl;
 }
 
+function natsumeAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#natsume", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#natsume",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function tsumugiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#tsumugi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#tsumugi",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function soraAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#sora", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#sora",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function mamaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#mama", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#mama",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
 var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
             .add(nikkiAnimation())
@@ -357,4 +381,8 @@ mainTimeline.add(registerAnimation())
             .add(izumiAnimation())
             .add(ritsuAnimation())
             .add(arashiAnimation())
+            .add(natsumeAnimation())
+            .add(tsumugiAnimation())
+            .add(soraAnimation())
+            .add(mamaAnimation())
             ;
