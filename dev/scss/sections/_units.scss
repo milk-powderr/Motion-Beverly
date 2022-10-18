@@ -949,7 +949,7 @@
             padding-top: 28px;
             width: 20%;
         }
-    }
+    
 
     #tsukasa {
         float: right;
@@ -1021,6 +1021,7 @@
         }
     }
 }
+
 
 .switch_line{
     font-size: rem-calc(50);
@@ -1133,6 +1134,7 @@
         @include lg{
             display: flex;
         }
+}
 }
 }
 }

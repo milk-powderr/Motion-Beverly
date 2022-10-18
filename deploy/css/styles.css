@@ -1507,82 +1507,82 @@ textarea {
   padding-top: 28px;
   width: 20%;
 }
-#units #content #tsukasa {
+#units #content .knights_line #tsukasa {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units #content #tsukasa {
+  #units #content .knights_line #tsukasa {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units #content #tsukasa {
+  #units #content .knights_line #tsukasa {
     display: flex;
   }
 }
-#units #content #leo {
+#units #content .knights_line #leo {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units #content #leo {
+  #units #content .knights_line #leo {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units #content #leo {
+  #units #content .knights_line #leo {
     display: flex;
   }
 }
-#units #content #izumi {
+#units #content .knights_line #izumi {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units #content #izumi {
+  #units #content .knights_line #izumi {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units #content #izumi {
+  #units #content .knights_line #izumi {
     display: flex;
   }
 }
-#units #content #ritsu {
+#units #content .knights_line #ritsu {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units #content #ritsu {
+  #units #content .knights_line #ritsu {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units #content #ritsu {
+  #units #content .knights_line #ritsu {
     display: flex;
   }
 }
-#units #content #arashi {
+#units #content .knights_line #arashi {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units #content #arashi {
+  #units #content .knights_line #arashi {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units #content #arashi {
+  #units #content .knights_line #arashi {
     display: flex;
   }
 }
-#units .switch_line {
+#units #content .switch_line {
   font-size: 3.125rem;
   background: linear-gradient(90deg, #A3EA34 0%, rgb(255, 255, 255) 100%);
   padding-bottom: 45px;
@@ -1597,66 +1597,66 @@ textarea {
   padding-right: 5%;
 }
 @media (min-width: 768px) {
-  #units .switch_line {
+  #units #content .switch_line {
     font-size: 3.75rem;
   }
 }
 @media (min-width: 1024px) {
-  #units .switch_line {
+  #units #content .switch_line {
     font-size: rem-cal(70);
   }
 }
-#units .switch_line #switch {
+#units #content .switch_line #switch {
   float: left;
   cursor: pointer;
   padding-top: 40px;
 }
-#units .switch_line #natsume {
+#units #content .switch_line #natsume {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units .switch_line #natsume {
+  #units #content .switch_line #natsume {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units .switch_line #natsume {
+  #units #content .switch_line #natsume {
     display: flex;
   }
 }
-#units .switch_line #tsumugi {
+#units #content .switch_line #tsumugi {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units .switch_line #tsumugi {
+  #units #content .switch_line #tsumugi {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units .switch_line #tsumugi {
+  #units #content .switch_line #tsumugi {
     display: flex;
   }
 }
-#units .switch_line #sora {
+#units #content .switch_line #sora {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units .switch_line #sora {
+  #units #content .switch_line #sora {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units .switch_line #sora {
+  #units #content .switch_line #sora {
     display: flex;
   }
 }
-#units .mam_line {
+#units #content .mam_line {
   font-size: 3.125rem;
   background: linear-gradient(90deg, #5A6964 0%, rgb(255, 255, 255) 100%);
   padding-bottom: 45px;
@@ -1671,32 +1671,32 @@ textarea {
   padding-right: 5%;
 }
 @media (min-width: 768px) {
-  #units .mam_line {
+  #units #content .mam_line {
     font-size: 3.75rem;
   }
 }
 @media (min-width: 1024px) {
-  #units .mam_line {
+  #units #content .mam_line {
     font-size: rem-cal(70);
   }
 }
-#units .mam_line #mam {
+#units #content .mam_line #mam {
   float: left;
   cursor: pointer;
   padding-top: 35px;
 }
-#units .mam_line #mama {
+#units #content .mam_line #mama {
   float: right;
   cursor: pointer;
   display: none;
 }
 @media (min-width: 768px) {
-  #units .mam_line #mama {
+  #units #content .mam_line #mama {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  #units .mam_line #mama {
+  #units #content .mam_line #mama {
     display: flex;
   }
 }

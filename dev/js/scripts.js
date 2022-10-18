@@ -390,5 +390,4 @@ mainTimeline.add(registerAnimation())
             .add(tsumugiAnimation())
             .add(soraAnimation())
             .add(mamaAnimation())
-            .add(doublefaceAnimation())
-            ;
+            .add(doublefaceAnimation());
