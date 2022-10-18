@@ -237,6 +237,78 @@ function adonisAnimation(){
   return tl;
 }
 
+function tomoyaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#tomoya", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#tomoya",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function nazunaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#nazuna", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#nazuna",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function tenmaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#tenma", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#tenma",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function shinononAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#shinonon", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#shinonon",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function keitoAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#keito", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#keito",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function kuroAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#kuro", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#kuro",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function soumaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#souma", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#souma",{duration:2, scale:1, x:"-=-600%"});
+  return tl;
+}
+
+function tsukasaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#tsukasa", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#tsukasa",{duration:2, scale:1, x:"-=-600%"});
+  return tl;
+}
+
+function leoAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#leo", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#leo",{duration:2, scale:1, x:"-=-600%"});
+  return tl;
+}
+
+function izumiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#izumi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#izumi",{duration:2, scale:1, x:"-=-600%"});
+  return tl;
+}
+
+function ritsuAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#ritsu", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#ritsu",{duration:2, scale:1, x:"-=-600%"});
+  return tl;
+}
+
+function arashiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#arashi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#arashi",{duration:2, scale:1, x:"-=-600%"});
+  return tl;
+}
+
 var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
             .add(nikkiAnimation())
@@ -273,4 +345,16 @@ mainTimeline.add(registerAnimation())
             .add(kaoruAnimation())
             .add(kogaAnimation())
             .add(adonisAnimation())
+            .add(tomoyaAnimation())
+            .add(nazunaAnimation())
+            .add(tenmaAnimation())
+            .add(shinononAnimation())
+            .add(keitoAnimation())
+            .add(kuroAnimation())
+            .add(soumaAnimation())
+            .add(tsukasaAnimation())
+            .add(leoAnimation())
+            .add(izumiAnimation())
+            .add(ritsuAnimation())
+            .add(arashiAnimation())
             ;
