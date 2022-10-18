@@ -587,19 +587,19 @@ textarea {
   cursor: pointer;
   padding-top: 60px;
 }
-#units #content .fine_line .eichi {
+#units #content .fine_line #eichi {
   float: right;
   cursor: pointer;
 }
-#units #content .fine_line .wataru {
+#units #content .fine_line #wataru {
   float: right;
   cursor: pointer;
 }
-#units #content .fine_line .tori {
+#units #content .fine_line #tori {
   float: right;
   cursor: pointer;
 }
-#units #content .fine_line .yuzuru {
+#units #content .fine_line #yuzuru {
   float: right;
   cursor: pointer;
 }
@@ -632,19 +632,19 @@ textarea {
   cursor: pointer;
   padding-top: 60px;
 }
-#units #content .trickstar_line .hokke {
+#units #content .trickstar_line #hokke {
   float: right;
   cursor: pointer;
 }
-#units #content .trickstar_line .subaru {
+#units #content .trickstar_line #subaru {
   float: right;
   cursor: pointer;
 }
-#units #content .trickstar_line .yuki {
+#units #content .trickstar_line #yuki {
   float: right;
   cursor: pointer;
 }
-#units #content .trickstar_line .sally {
+#units #content .trickstar_line #sally {
   float: right;
   cursor: pointer;
 }
@@ -672,28 +672,28 @@ textarea {
     font-size: rem-cal(70);
   }
 }
-#units #content .ryuseitai_line .ryuseitai {
+#units #content .ryuseitai_line #ryuseitai {
   float: left;
   cursor: pointer;
   padding-top: 70px;
 }
-#units #content .ryuseitai_line .chiaki {
+#units #content .ryuseitai_line #chiaki {
   float: right;
   cursor: pointer;
 }
-#units #content .ryuseitai_line .kanata {
+#units #content .ryuseitai_line #kanata {
   float: right;
   cursor: pointer;
 }
-#units #content .ryuseitai_line .tetora {
+#units #content .ryuseitai_line #tetora {
   float: right;
   cursor: pointer;
 }
-#units #content .ryuseitai_line .midori {
+#units #content .ryuseitai_line #midori {
   float: right;
   cursor: pointer;
 }
-#units #content .ryuseitai_line .shinobu {
+#units #content .ryuseitai_line #shinobu {
   float: right;
   cursor: pointer;
 }
@@ -726,19 +726,19 @@ textarea {
   cursor: pointer;
   padding-top: 115px;
 }
-#units #content .alkaloid_line .hiiro {
+#units #content .alkaloid_line #hiiro {
   float: right;
   cursor: pointer;
 }
-#units #content .alkaloid_line .aira {
+#units #content .alkaloid_line #aira {
   float: right;
   cursor: pointer;
 }
-#units #content .alkaloid_line .mayoi {
+#units #content .alkaloid_line #mayoi {
   float: right;
   cursor: pointer;
 }
-#units #content .alkaloid_line .tatsumi {
+#units #content .alkaloid_line #tatsumi {
   float: right;
   cursor: pointer;
 }
@@ -771,19 +771,19 @@ textarea {
   cursor: pointer;
   padding-top: 45px;
 }
-#units #content .eden_line .nagisa {
+#units #content .eden_line #nagisa {
   float: right;
   cursor: pointer;
 }
-#units #content .eden_line .hiyori {
+#units #content .eden_line #hiyori {
   float: right;
   cursor: pointer;
 }
-#units #content .eden_line .ibara {
+#units #content .eden_line #ibara {
   float: right;
   cursor: pointer;
 }
-#units #content .eden_line .jun {
+#units #content .eden_line #jun {
   float: right;
   cursor: pointer;
 }
@@ -816,11 +816,11 @@ textarea {
   cursor: pointer;
   padding-top: 100px;
 }
-#units #content .valkyrie_line .shu {
+#units #content .valkyrie_line #shu {
   float: right;
   cursor: pointer;
 }
-#units #content .valkyrie_line .mika {
+#units #content .valkyrie_line #mika {
   float: right;
   cursor: pointer;
 }
@@ -853,11 +853,11 @@ textarea {
   cursor: pointer;
   padding-top: 45px;
 }
-#units #content .twink_line .hinata {
+#units #content .twink_line #hinata {
   float: right;
   cursor: pointer;
 }
-#units #content .twink_line .yuta {
+#units #content .twink_line #yuta {
   float: right;
   cursor: pointer;
 }
@@ -890,19 +890,19 @@ textarea {
   cursor: pointer;
   padding-top: 45px;
 }
-#units #content .crazyb_line .rinne {
+#units #content .crazyb_line #rinne {
   float: right;
   cursor: pointer;
 }
-#units #content .crazyb_line .himeru {
+#units #content .crazyb_line #himeru {
   float: right;
   cursor: pointer;
 }
-#units #content .crazyb_line .kohaku {
+#units #content .crazyb_line #kohaku {
   float: right;
   cursor: pointer;
 }
-#units #content .crazyb_line .nikkishiina {
+#units #content .crazyb_line #nikkishiina {
   float: right;
   cursor: pointer;
 }
@@ -935,19 +935,19 @@ textarea {
   cursor: pointer;
   padding-top: 75px;
 }
-#units #content .undead_line .rei {
+#units #content .undead_line #rei {
   float: right;
   cursor: pointer;
 }
-#units #content .undead_line .kaoru {
+#units #content .undead_line #kaoru {
   float: right;
   cursor: pointer;
 }
-#units #content .undead_line .koga {
+#units #content .undead_line #koga {
   float: right;
   cursor: pointer;
 }
-#units #content .undead_line .adonis {
+#units #content .undead_line #adonis {
   float: right;
   cursor: pointer;
 }
@@ -980,19 +980,183 @@ textarea {
   cursor: pointer;
   padding-top: 90px;
 }
-#units #content .rabbits_line .tomoya {
+#units #content .rabbits_line #tomoya {
   float: right;
   cursor: pointer;
 }
-#units #content .rabbits_line .nazuna {
+#units #content .rabbits_line #nazuna {
   float: right;
   cursor: pointer;
 }
-#units #content .rabbits_line .tenma {
+#units #content .rabbits_line #tenma {
   float: right;
   cursor: pointer;
 }
-#units #content .rabbits_line .shinonon {
+#units #content .rabbits_line #shinonon {
+  float: right;
+  cursor: pointer;
+}
+#units #content .akatsuki_line {
+  font-size: 3.125rem;
+  background: linear-gradient(90deg, #962828 0%, rgb(255, 255, 255) 100%);
+  padding-bottom: 45px;
+  padding-top: 45px;
+  color: white;
+  text-align: left;
+  align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 90px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+@media (min-width: 768px) {
+  #units #content .akatsuki_line {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .akatsuki_line {
+    font-size: rem-cal(70);
+  }
+}
+#units #content .akatsuki_line #akatsuki {
+  float: left;
+  cursor: pointer;
+  padding-top: 28px;
+}
+#units #content .akatsuki_line #keito {
+  float: right;
+  cursor: pointer;
+}
+#units #content .akatsuki_line #kuro {
+  float: right;
+  cursor: pointer;
+}
+#units #content .akatsuki_line #souma {
+  float: right;
+  cursor: pointer;
+}
+#units #content .knights_line {
+  font-size: 3.125rem;
+  background: linear-gradient(90deg, #305DAA 0%, rgb(255, 255, 255) 100%);
+  padding-bottom: 45px;
+  padding-top: 45px;
+  color: white;
+  text-align: left;
+  align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 90px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+@media (min-width: 768px) {
+  #units #content .knights_line {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .knights_line {
+    font-size: rem-cal(70);
+  }
+}
+#units #content .knights_line #knights {
+  float: left;
+  cursor: pointer;
+  padding-top: 28px;
+}
+#units #content .knights_line #tsukasa {
+  float: right;
+  cursor: pointer;
+}
+#units #content .knights_line #leo {
+  float: right;
+  cursor: pointer;
+}
+#units #content .knights_line #izumi {
+  float: right;
+  cursor: pointer;
+}
+#units #content .knights_line #ritsu {
+  float: right;
+  cursor: pointer;
+}
+#units #content .knights_line #arashi {
+  float: right;
+  cursor: pointer;
+}
+#units #content .switch_line {
+  font-size: 3.125rem;
+  background: linear-gradient(90deg, #A3EA34 0%, rgb(255, 255, 255) 100%);
+  padding-bottom: 45px;
+  padding-top: 45px;
+  color: white;
+  text-align: left;
+  align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 90px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+@media (min-width: 768px) {
+  #units #content .switch_line {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .switch_line {
+    font-size: rem-cal(70);
+  }
+}
+#units #content .switch_line #switch {
+  float: left;
+  cursor: pointer;
+  padding-top: 40px;
+}
+#units #content .switch_line #natsume {
+  float: right;
+  cursor: pointer;
+}
+#units #content .switch_line #tsumugi {
+  float: right;
+  cursor: pointer;
+}
+#units #content .switch_line #sora {
+  float: right;
+  cursor: pointer;
+}
+#units #content .mam_line {
+  font-size: 3.125rem;
+  background: linear-gradient(90deg, #5A6964 0%, rgb(255, 255, 255) 100%);
+  padding-bottom: 45px;
+  padding-top: 45px;
+  color: white;
+  text-align: left;
+  align-items: baseline;
+  cursor: pointer;
+  height: 300px;
+  margin-bottom: 90px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+@media (min-width: 768px) {
+  #units #content .mam_line {
+    font-size: 3.75rem;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .mam_line {
+    font-size: rem-cal(70);
+  }
+}
+#units #content .mam_line #mam {
+  float: left;
+  cursor: pointer;
+  padding-top: 35px;
+}
+#units #content .mam_line #mama {
   float: right;
   cursor: pointer;
 }

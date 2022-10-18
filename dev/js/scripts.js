@@ -39,20 +39,140 @@ function nikkiAnimation(){
   return tl;
 }
 
-function fineAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger: "#fine_idols", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#fine_idols",{duration:1, scale:1, x:"-=-200%"});
+function eichiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#eichi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#eichi",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
-function trickstarAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger: "#trickstar_idols", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#trickstar_idols",{duration:1, scale:1, x:"-=-200%"});
+function wataruAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#wataru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#wataru",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function toriAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#tori", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#tori",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function yuzuruAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#yuzuru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#yuzuru",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function hokkeAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#hokke", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#hokke",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function subaruAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#subaru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#subaru",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function yukiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#yuki", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#yuki",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function sallyAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#sally", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#sally",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function chiakiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#chiaki", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#chiaki",{duration:2, scale:1, x:"-=-550%"});
+  return tl;
+}
+
+function kanataAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#kanata", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#kanata",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function tetoraAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#tetora", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#tetora",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function midoriAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#midori", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#midori",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function shinobuAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#shinobu", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#shinobu",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function hiiroAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#hiiro", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#hiiro",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function airaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#aira", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#aira",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function mayoiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#mayoi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#mayoi",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function tatsumiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#tatsumi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#tatsumi",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function nagisaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#nagisa", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#nagisa",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function hiyoriAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#hiyori", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#hiyori",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
             .add(nikkiAnimation())
-            .add(fineAnimation())
-            .add(trickstarAnimation());
+            .add(eichiAnimation())
+            .add(wataruAnimation())
+            .add(toriAnimation())
+            .add(yuzuruAnimation())
+            .add(hokkeAnimation())
+            .add(subaruAnimation())
+            .add(yukiAnimation())
+            .add(sallyAnimation())
+            .add(chiakiAnimation())
+            .add(kanataAnimation())
+            .add(tetoraAnimation())
+            .add(midoriAnimation())
+            .add(shinobuAnimation())
+            .add(hiiroAnimation())
+            .add(airaAnimation())
+            .add(mayoiAnimation())
+            .add(tatsumiAnimation())
+            .add(nagisaAnimation())
+            .add(hiyoriAnimation())
+            ;
