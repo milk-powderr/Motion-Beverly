@@ -153,6 +153,90 @@ function hiyoriAnimation(){
   return tl;
 }
 
+function ibaraAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#ibara", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#ibara",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function junAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#jun", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#jun",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function shuAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#shu", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#shu",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function mikaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#mika", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#mika",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function hinataAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#hinata", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#hinata",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function yutaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#yuta", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#yuta",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function rinneAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#rinne", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#rinne",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function himeruAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#himeru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#himeru",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function kohakuAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#kohaku", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#kohaku",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function nikkishiinaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#nikkishiina", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#nikkishiina",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function reiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#rei", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#rei",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function kaoruAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#kaoru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#kaoru",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function kogaAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#koga", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#koga",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
+function adonisAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#adonis", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#adonis",{duration:2, scale:1, x:"-=-500%"});
+  return tl;
+}
+
 var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
             .add(nikkiAnimation())
@@ -175,4 +259,18 @@ mainTimeline.add(registerAnimation())
             .add(tatsumiAnimation())
             .add(nagisaAnimation())
             .add(hiyoriAnimation())
+            .add(ibaraAnimation())
+            .add(junAnimation())
+            .add(shuAnimation())
+            .add(mikaAnimation())
+            .add(hinataAnimation())
+            .add(yutaAnimation())
+            .add(rinneAnimation())
+            .add(himeruAnimation())
+            .add(kohakuAnimation())
+            .add(nikkishiinaAnimation())
+            .add(reiAnimation())
+            .add(kaoruAnimation())
+            .add(kogaAnimation())
+            .add(adonisAnimation())
             ;
