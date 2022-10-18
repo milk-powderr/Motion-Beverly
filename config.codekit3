@@ -124,6 +124,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/deploy\/img\/doubleface.jpeg" : {
+      "ft" : 16384,
+      "iS" : 159803,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/doubleface.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/eden.png" : {
       "ft" : 32768,
       "iS" : 109293,
@@ -918,6 +931,22 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
+    "\/dev\/content\/new.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/new.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/new.html",
+      "oF" : 0
+    },
     "\/dev\/content\/units.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1172,6 +1201,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_new.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_new.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

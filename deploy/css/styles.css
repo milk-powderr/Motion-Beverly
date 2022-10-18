@@ -1160,3 +1160,64 @@ textarea {
   float: right;
   cursor: pointer;
 }
+
+#new {
+  margin-top: 90px;
+}
+@media (min-width: 768px) {
+  #new {
+    margin-top: 90px;
+  }
+}
+@media (min-width: 1024px) {
+  #new {
+    margin-top: 100px;
+  }
+}
+#new #doubleface {
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#new #doubleface h1 {
+  font-size: 3.125rem;
+  background-image: linear-gradient(180deg, #dd84ad, #9976e6);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  padding-bottom: 90px;
+}
+@media (min-width: 768px) {
+  #new #doubleface h1 {
+    font-size: 3.75rem;
+    padding-bottom: 90px;
+  }
+}
+@media (min-width: 1024px) {
+  #new #doubleface h1 {
+    font-size: 4.375rem;
+    font-weight: bolder;
+    padding-bottom: 110px;
+  }
+}
+#new #doubleface h1 span {
+  font-family: "Lato", sans-serif;
+}
+#new #doubleface #doubleface__image {
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  #new #doubleface #doubleface__image {
+    max-width: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  #new #doubleface #doubleface__image {
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+  }
+}

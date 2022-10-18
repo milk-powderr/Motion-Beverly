@@ -1,0 +1,58 @@
+#new{
+    margin-top: 90px;
+
+    @include md{
+        margin-top: 90px;
+    }
+
+    @include lg{
+        margin-top: 100px;
+    }
+   
+    #doubleface{
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        h1{
+            font-size: rem-calc(50);
+            background-image: linear-gradient(180deg, #dd84ad, #9976e6);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+            padding-bottom: 90px;
+
+            @include md{
+                font-size: rem-calc(60);
+                padding-bottom: 90px;
+            }
+
+            @include lg{
+                font-size: rem-calc(70);
+                font-weight: bolder;
+                padding-bottom: 110px;
+            }
+
+            span{
+                font-family: 'Lato', sans-serif;
+            }
+        }
+        #doubleface__image {
+            padding-top: 50px;
+
+            @include md{
+                max-width: 90%;
+
+            }
+
+            @include lg{
+                padding-top: 50px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
