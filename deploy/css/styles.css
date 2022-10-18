@@ -674,6 +674,7 @@ textarea {
 #units #content .trickstar_line #trickstar {
   float: left;
   cursor: pointer;
+  padding-top: 60px;
 }
 #units #content .trickstar_line #hokke {
   float: right;
