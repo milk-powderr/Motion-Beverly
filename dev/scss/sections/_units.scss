@@ -14,6 +14,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
+        overflow: hidden;
 
         h1{
             font-size: rem-calc(50);
@@ -139,6 +140,7 @@
             padding-left: 3%;
             padding-right: 5%;
             margin-bottom: 90px;
+            overflow: hidden;
 
             @include md{
                 font-size: rem-calc(60);

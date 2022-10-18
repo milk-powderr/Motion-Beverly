@@ -532,6 +532,7 @@ textarea {
   align-items: center;
   text-align: center;
   justify-content: center;
+  overflow: hidden;
 }
 #units #content h1 {
   font-size: 3.125rem;
@@ -661,6 +662,7 @@ textarea {
   padding-left: 3%;
   padding-right: 5%;
   margin-bottom: 90px;
+  overflow: hidden;
 }
 @media (min-width: 768px) {
   #units #content .trickstar_line {
@@ -1720,6 +1722,7 @@ textarea {
   align-items: center;
   text-align: center;
   justify-content: center;
+  overflow: hidden;
 }
 #new #doubleface h1 {
   font-size: 3.125rem;
@@ -1750,7 +1753,6 @@ textarea {
 #new #doubleface #doublefaceimage {
   padding-top: 50px;
   width: 80%;
-  overflow: hidden;
 }
 @media (min-width: 768px) {
   #new #doubleface #doublefaceimage {

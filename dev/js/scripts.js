@@ -63,25 +63,25 @@ function yuzuruAnimation(){
 
 function hokkeAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#hokke", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#hokke",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#hokke",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function subaruAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#subaru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#subaru",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#subaru",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function yukiAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#yuki", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#yuki",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#yuki",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function sallyAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#sally", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#sally",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#sally",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
@@ -117,25 +117,25 @@ function shinobuAnimation(){
 
 function hiiroAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#hiiro", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#hiiro",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#hiiro",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function airaAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#aira", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#aira",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#aira",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function mayoiAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#mayoi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#mayoi",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#mayoi",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function tatsumiAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#tatsumi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#tatsumi",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#tatsumi",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
@@ -165,13 +165,13 @@ function junAnimation(){
 
 function shuAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#shu", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#shu",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#shu",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function mikaAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#mika", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#mika",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#mika",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
@@ -189,25 +189,25 @@ function yutaAnimation(){
 
 function rinneAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#rinne", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#rinne",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#rinne",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function himeruAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#himeru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#himeru",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#himeru",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function kohakuAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#kohaku", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#kohaku",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#kohaku",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function nikkishiinaAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#nikkishiina", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#nikkishiina",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#nikkishiina",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
@@ -237,25 +237,25 @@ function adonisAnimation(){
 
 function tomoyaAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#tomoya", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#tomoya",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#tomoya",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function nazunaAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#nazuna", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#nazuna",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#nazuna",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function tenmaAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#tenma", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#tenma",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#tenma",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
 function shinononAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#shinonon", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#shinonon",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#shinonon",{duration:2, scale:1, x:"-=-500%"});
   return tl;
 }
 
@@ -279,33 +279,34 @@ function soumaAnimation(){
 
 function tsukasaAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#tsukasa", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#tsukasa",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#tsukasa",{duration:2, scale:1, x:"-=-600%"});
   return tl;
 }
 
 function leoAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#leo", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#leo",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#leo",{duration:2, scale:1, x:"-=-600%"});
   return tl;
 }
 
 function izumiAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#izumi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#izumi",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#izumi",{duration:2, scale:1, x:"-=-600%"});
   return tl;
 }
 
 function ritsuAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#ritsu", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#ritsu",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#ritsu",{duration:2, scale:1, x:"-=-600%"});
   return tl;
 }
 
 function arashiAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#arashi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#arashi",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#arashi",{duration:2, scale:1, x:"-=-600%"});
   return tl;
 }
+
 
 function natsumeAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#natsume", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
@@ -327,13 +328,13 @@ function soraAnimation(){
 
 function mamaAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#mama", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#mama",{duration:1, clipPath:"inset(0 50%)"},"same");
+  tl.from("#mama",{duration:2, scale:1, x:"-=-600%"},"same");
   return tl;
 }
 
 function doublefaceAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger:"#new_stuff", scrub: true, start:"top 80%", end:"bottom 40%", markers: false}});
-  tl.from("#doublefaceimage",{duration:1, scale:1, x:"-=200%"},"same");
+  tl.from("#doublefaceimage",{duration:1, scale:1, y:"-=-100%"},"same");
   return tl;
 }
 
