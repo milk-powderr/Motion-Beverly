@@ -46,7 +46,7 @@
             background: linear-gradient(90deg, rgba(255,216,161,1) 0%, rgba(255,255,255,1) 100%);
             padding-bottom: 45px;
             padding-top: 45px;
-            padding-left: 10%;
+            padding-left: 3%;
             padding-right: 5%;
             color: white;
             text-align: left;
@@ -72,21 +72,57 @@
             #eichi {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #wataru {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #tori {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #yuzuru {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         }
 
@@ -100,7 +136,7 @@
             align-items: baseline;
             cursor: pointer;
             height: 300px;
-            padding-left: 10%;
+            padding-left: 3%;
             padding-right: 5%;
             margin-bottom: 90px;
 
@@ -115,27 +151,62 @@
             #trickstar {
                 float: left;
                 cursor: pointer;
-                padding-top: 60px;
             }
 
             #hokke {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #subaru {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #yuki {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #sally {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         }
 
@@ -150,7 +221,7 @@
             cursor: pointer;
             height: 300px;
             margin-bottom: 90px;
-            padding-left: 10%;
+            padding-left: 3%;
             padding-right: 5%;
 
             @include md{
@@ -170,26 +241,71 @@
             #chiaki {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #kanata {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #tetora {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #midori {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 
             #shinobu {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         }
 
@@ -204,7 +320,7 @@
         cursor: pointer;
         height: 300px;
         margin-bottom: 90px;
-        padding-left: 10%;
+        padding-left: 3%;
         padding-right: 5%;
 
         @include md{
@@ -224,21 +340,57 @@
         #hiiro {
             float: right;
             cursor: pointer;
+            display: none;
+
+            @include md{
+                display: none;
+            }
+
+            @include lg{
+                display: flex;
+            }
         }
 
         #aira {
             float: right;
             cursor: pointer;
+            display: none;
+
+            @include md{
+                display: none;
+            }
+
+            @include lg{
+                display: flex;
+            }
         }
 
         #mayoi {
             float: right;
             cursor: pointer;
+            display: none;
+
+            @include md{
+                display: none;
+            }
+
+            @include lg{
+                display: flex;
+            }
         }
 
         #tatsumi {
             float: right;
             cursor: pointer;
+            display: none;
+
+            @include md{
+                display: none;
+            }
+
+            @include lg{
+                display: flex;
+            }
         }
         }
 
@@ -253,7 +405,7 @@
     cursor: pointer;
     height: 300px;
     margin-bottom: 90px;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 5%;
 
     @include md{
@@ -273,21 +425,57 @@
     #nagisa {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #hiyori {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #ibara {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #jun {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
         }
 
@@ -302,7 +490,7 @@
     cursor: pointer;
     height: 300px;
     margin-bottom: 90px;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 5%;
 
     @include md{
@@ -322,11 +510,29 @@
     #shu {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #mika {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
         }
 
@@ -341,7 +547,7 @@
     cursor: pointer;
     height: 300px;
     margin-bottom: 90px;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 5%;
 
     @include md{
@@ -361,11 +567,29 @@
     #hinata {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #yuta {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
         }
 
@@ -380,7 +604,7 @@
     cursor: pointer;
     height: 300px;
     margin-bottom: 90px;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 5%;
 
     @include md{
@@ -400,21 +624,57 @@
     #rinne {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #himeru {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
-    #kohaku{
+    #kohaku {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #nikkishiina {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
         }
 
@@ -429,7 +689,7 @@
             cursor: pointer;
             height: 300px;
             margin-bottom: 90px;
-            padding-left: 10%;
+            padding-left: 3%;
             padding-right: 5%;
         
             @include md{
@@ -449,21 +709,57 @@
             #rei {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         
             #kaoru {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         
             #koga {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         
             #adonis {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         }
 
@@ -478,7 +774,7 @@
             cursor: pointer;
             height: 300px;
             margin-bottom: 90px;
-            padding-left: 10%;
+            padding-left: 3%;
             padding-right: 5%;
         
             @include md{
@@ -498,21 +794,57 @@
             #tomoya {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         
             #nazuna {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         
             #tenma {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
         
             #shinonon {
                 float: right;
                 cursor: pointer;
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
             }
 }
 
@@ -527,7 +859,7 @@
     cursor: pointer;
     height: 300px;
     margin-bottom: 90px;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 5%;
 
     @include md{
@@ -547,16 +879,43 @@
     #keito {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #kuro {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #souma {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
 }
@@ -572,7 +931,7 @@
     cursor: pointer;
     height: 300px;
     margin-bottom: 90px;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 5%;
 
     @include md{
@@ -584,34 +943,81 @@
     }
 
     #knights {
-        float: left;
-        cursor: pointer;
-        padding-top: 28px;
+            float: left;
+            cursor: pointer;
+            padding-top: 28px;
+            width: 20%;
+        }
     }
 
     #tsukasa {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #leo {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #izumi {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #ritsu {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #arashi {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 }
 
@@ -626,7 +1032,7 @@
     cursor: pointer;
     height: 300px;
     margin-bottom: 90px;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 5%;
 
     @include md{
@@ -646,16 +1052,43 @@
     #natsume {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #tsumugi {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 
     #sora {
         float: right;
         cursor: pointer;
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
     }
 }
 
@@ -670,7 +1103,7 @@
     cursor: pointer;
     height: 300px;
     margin-bottom: 90px;
-    padding-left: 10%;
+    padding-left: 3%;
     padding-right: 5%;
 
     @include md{
@@ -690,7 +1123,15 @@
     #mama {
         float: right;
         cursor: pointer;
-    }
+        display: none;
+
+        @include md{
+            display: none;
+        }
+
+        @include lg{
+            display: flex;
+        }
 }
 }
 }

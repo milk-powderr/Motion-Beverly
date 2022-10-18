@@ -33,7 +33,7 @@ function registerAnimation(){
 
 function nikkiAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#nikki_bday", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#nikki_bday",{duration:1, scale:1, x:"-=-200%"});
+  tl.from("#nikki_bday",{duration:1, clipPath:"inset(0 50%)"});
   return tl;
 }
 

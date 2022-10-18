@@ -497,19 +497,19 @@ textarea {
     padding-bottom: 110px;
   }
 }
-#updates #content #nikki_bday__image {
+#updates #content #nikki_bday {
   padding-top: 50px;
+  width: 80%;
 }
 @media (min-width: 768px) {
-  #updates #content #nikki_bday__image {
-    max-width: 90%;
+  #updates #content #nikki_bday {
+    width: 75%;
   }
 }
 @media (min-width: 1024px) {
-  #updates #content #nikki_bday__image {
+  #updates #content #nikki_bday {
     padding-top: 50px;
-    width: 100%;
-    height: 100%;
+    width: 75%;
   }
 }
 
@@ -563,7 +563,7 @@ textarea {
   background: linear-gradient(90deg, rgb(255, 216, 161) 0%, rgb(255, 255, 255) 100%);
   padding-bottom: 45px;
   padding-top: 45px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
   color: white;
   text-align: left;
@@ -590,18 +590,62 @@ textarea {
 #units #content .fine_line #eichi {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #eichi {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #eichi {
+    display: flex;
+  }
 }
 #units #content .fine_line #wataru {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #wataru {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #wataru {
+    display: flex;
+  }
 }
 #units #content .fine_line #tori {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #tori {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #tori {
+    display: flex;
+  }
 }
 #units #content .fine_line #yuzuru {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #yuzuru {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #yuzuru {
+    display: flex;
+  }
 }
 #units #content .trickstar_line {
   font-size: 3.125rem;
@@ -613,7 +657,7 @@ textarea {
   align-items: baseline;
   cursor: pointer;
   height: 300px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
   margin-bottom: 90px;
 }
@@ -630,23 +674,66 @@ textarea {
 #units #content .trickstar_line #trickstar {
   float: left;
   cursor: pointer;
-  padding-top: 60px;
 }
 #units #content .trickstar_line #hokke {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .trickstar_line #hokke {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .trickstar_line #hokke {
+    display: flex;
+  }
 }
 #units #content .trickstar_line #subaru {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .trickstar_line #subaru {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .trickstar_line #subaru {
+    display: flex;
+  }
 }
 #units #content .trickstar_line #yuki {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .trickstar_line #yuki {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .trickstar_line #yuki {
+    display: flex;
+  }
 }
 #units #content .trickstar_line #sally {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .trickstar_line #sally {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .trickstar_line #sally {
+    display: flex;
+  }
 }
 #units #content .ryuseitai_line {
   font-size: 3.125rem;
@@ -659,7 +746,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -680,22 +767,77 @@ textarea {
 #units #content .ryuseitai_line #chiaki {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .ryuseitai_line #chiaki {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .ryuseitai_line #chiaki {
+    display: flex;
+  }
 }
 #units #content .ryuseitai_line #kanata {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .ryuseitai_line #kanata {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .ryuseitai_line #kanata {
+    display: flex;
+  }
 }
 #units #content .ryuseitai_line #tetora {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .ryuseitai_line #tetora {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .ryuseitai_line #tetora {
+    display: flex;
+  }
 }
 #units #content .ryuseitai_line #midori {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .ryuseitai_line #midori {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .ryuseitai_line #midori {
+    display: flex;
+  }
 }
 #units #content .ryuseitai_line #shinobu {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .ryuseitai_line #shinobu {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .ryuseitai_line #shinobu {
+    display: flex;
+  }
 }
 #units #content .alkaloid_line {
   font-size: 3.125rem;
@@ -708,7 +850,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -729,18 +871,62 @@ textarea {
 #units #content .alkaloid_line #hiiro {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .alkaloid_line #hiiro {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .alkaloid_line #hiiro {
+    display: flex;
+  }
 }
 #units #content .alkaloid_line #aira {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .alkaloid_line #aira {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .alkaloid_line #aira {
+    display: flex;
+  }
 }
 #units #content .alkaloid_line #mayoi {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .alkaloid_line #mayoi {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .alkaloid_line #mayoi {
+    display: flex;
+  }
 }
 #units #content .alkaloid_line #tatsumi {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .alkaloid_line #tatsumi {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .alkaloid_line #tatsumi {
+    display: flex;
+  }
 }
 #units #content .eden_line {
   font-size: 3.125rem;
@@ -753,7 +939,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -774,18 +960,62 @@ textarea {
 #units #content .eden_line #nagisa {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .eden_line #nagisa {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .eden_line #nagisa {
+    display: flex;
+  }
 }
 #units #content .eden_line #hiyori {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .eden_line #hiyori {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .eden_line #hiyori {
+    display: flex;
+  }
 }
 #units #content .eden_line #ibara {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .eden_line #ibara {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .eden_line #ibara {
+    display: flex;
+  }
 }
 #units #content .eden_line #jun {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .eden_line #jun {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .eden_line #jun {
+    display: flex;
+  }
 }
 #units #content .valkyrie_line {
   font-size: 3.125rem;
@@ -798,7 +1028,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -819,10 +1049,32 @@ textarea {
 #units #content .valkyrie_line #shu {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .valkyrie_line #shu {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .valkyrie_line #shu {
+    display: flex;
+  }
 }
 #units #content .valkyrie_line #mika {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .valkyrie_line #mika {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .valkyrie_line #mika {
+    display: flex;
+  }
 }
 #units #content .twink_line {
   font-size: 3.125rem;
@@ -835,7 +1087,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -856,10 +1108,32 @@ textarea {
 #units #content .twink_line #hinata {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .twink_line #hinata {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .twink_line #hinata {
+    display: flex;
+  }
 }
 #units #content .twink_line #yuta {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .twink_line #yuta {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .twink_line #yuta {
+    display: flex;
+  }
 }
 #units #content .crazyb_line {
   font-size: 3.125rem;
@@ -872,7 +1146,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -893,18 +1167,62 @@ textarea {
 #units #content .crazyb_line #rinne {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .crazyb_line #rinne {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .crazyb_line #rinne {
+    display: flex;
+  }
 }
 #units #content .crazyb_line #himeru {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .crazyb_line #himeru {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .crazyb_line #himeru {
+    display: flex;
+  }
 }
 #units #content .crazyb_line #kohaku {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .crazyb_line #kohaku {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .crazyb_line #kohaku {
+    display: flex;
+  }
 }
 #units #content .crazyb_line #nikkishiina {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .crazyb_line #nikkishiina {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .crazyb_line #nikkishiina {
+    display: flex;
+  }
 }
 #units #content .undead_line {
   font-size: 3.125rem;
@@ -917,7 +1235,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -938,18 +1256,62 @@ textarea {
 #units #content .undead_line #rei {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .undead_line #rei {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .undead_line #rei {
+    display: flex;
+  }
 }
 #units #content .undead_line #kaoru {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .undead_line #kaoru {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .undead_line #kaoru {
+    display: flex;
+  }
 }
 #units #content .undead_line #koga {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .undead_line #koga {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .undead_line #koga {
+    display: flex;
+  }
 }
 #units #content .undead_line #adonis {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .undead_line #adonis {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .undead_line #adonis {
+    display: flex;
+  }
 }
 #units #content .rabbits_line {
   font-size: 3.125rem;
@@ -962,7 +1324,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -983,18 +1345,62 @@ textarea {
 #units #content .rabbits_line #tomoya {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .rabbits_line #tomoya {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .rabbits_line #tomoya {
+    display: flex;
+  }
 }
 #units #content .rabbits_line #nazuna {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .rabbits_line #nazuna {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .rabbits_line #nazuna {
+    display: flex;
+  }
 }
 #units #content .rabbits_line #tenma {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .rabbits_line #tenma {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .rabbits_line #tenma {
+    display: flex;
+  }
 }
 #units #content .rabbits_line #shinonon {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .rabbits_line #shinonon {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .rabbits_line #shinonon {
+    display: flex;
+  }
 }
 #units #content .akatsuki_line {
   font-size: 3.125rem;
@@ -1007,7 +1413,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -1028,14 +1434,47 @@ textarea {
 #units #content .akatsuki_line #keito {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .akatsuki_line #keito {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .akatsuki_line #keito {
+    display: flex;
+  }
 }
 #units #content .akatsuki_line #kuro {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .akatsuki_line #kuro {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .akatsuki_line #kuro {
+    display: flex;
+  }
 }
 #units #content .akatsuki_line #souma {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .akatsuki_line #souma {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .akatsuki_line #souma {
+    display: flex;
+  }
 }
 #units #content .knights_line {
   font-size: 3.125rem;
@@ -1048,7 +1487,7 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
@@ -1065,28 +1504,84 @@ textarea {
   float: left;
   cursor: pointer;
   padding-top: 28px;
+  width: 20%;
 }
-#units #content .knights_line #tsukasa {
+#units #content #tsukasa {
   float: right;
   cursor: pointer;
+  display: none;
 }
-#units #content .knights_line #leo {
+@media (min-width: 768px) {
+  #units #content #tsukasa {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content #tsukasa {
+    display: flex;
+  }
+}
+#units #content #leo {
   float: right;
   cursor: pointer;
+  display: none;
 }
-#units #content .knights_line #izumi {
+@media (min-width: 768px) {
+  #units #content #leo {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content #leo {
+    display: flex;
+  }
+}
+#units #content #izumi {
   float: right;
   cursor: pointer;
+  display: none;
 }
-#units #content .knights_line #ritsu {
+@media (min-width: 768px) {
+  #units #content #izumi {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content #izumi {
+    display: flex;
+  }
+}
+#units #content #ritsu {
   float: right;
   cursor: pointer;
+  display: none;
 }
-#units #content .knights_line #arashi {
+@media (min-width: 768px) {
+  #units #content #ritsu {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content #ritsu {
+    display: flex;
+  }
+}
+#units #content #arashi {
   float: right;
   cursor: pointer;
+  display: none;
 }
-#units #content .switch_line {
+@media (min-width: 768px) {
+  #units #content #arashi {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content #arashi {
+    display: flex;
+  }
+}
+#units .switch_line {
   font-size: 3.125rem;
   background: linear-gradient(90deg, #A3EA34 0%, rgb(255, 255, 255) 100%);
   padding-bottom: 45px;
@@ -1097,37 +1592,70 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
-  #units #content .switch_line {
+  #units .switch_line {
     font-size: 3.75rem;
   }
 }
 @media (min-width: 1024px) {
-  #units #content .switch_line {
+  #units .switch_line {
     font-size: rem-cal(70);
   }
 }
-#units #content .switch_line #switch {
+#units .switch_line #switch {
   float: left;
   cursor: pointer;
   padding-top: 40px;
 }
-#units #content .switch_line #natsume {
+#units .switch_line #natsume {
   float: right;
   cursor: pointer;
+  display: none;
 }
-#units #content .switch_line #tsumugi {
+@media (min-width: 768px) {
+  #units .switch_line #natsume {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units .switch_line #natsume {
+    display: flex;
+  }
+}
+#units .switch_line #tsumugi {
   float: right;
   cursor: pointer;
+  display: none;
 }
-#units #content .switch_line #sora {
+@media (min-width: 768px) {
+  #units .switch_line #tsumugi {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units .switch_line #tsumugi {
+    display: flex;
+  }
+}
+#units .switch_line #sora {
   float: right;
   cursor: pointer;
+  display: none;
 }
-#units #content .mam_line {
+@media (min-width: 768px) {
+  #units .switch_line #sora {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units .switch_line #sora {
+    display: flex;
+  }
+}
+#units .mam_line {
   font-size: 3.125rem;
   background: linear-gradient(90deg, #5A6964 0%, rgb(255, 255, 255) 100%);
   padding-bottom: 45px;
@@ -1138,27 +1666,38 @@ textarea {
   cursor: pointer;
   height: 300px;
   margin-bottom: 90px;
-  padding-left: 10%;
+  padding-left: 3%;
   padding-right: 5%;
 }
 @media (min-width: 768px) {
-  #units #content .mam_line {
+  #units .mam_line {
     font-size: 3.75rem;
   }
 }
 @media (min-width: 1024px) {
-  #units #content .mam_line {
+  #units .mam_line {
     font-size: rem-cal(70);
   }
 }
-#units #content .mam_line #mam {
+#units .mam_line #mam {
   float: left;
   cursor: pointer;
   padding-top: 35px;
 }
-#units #content .mam_line #mama {
+#units .mam_line #mama {
   float: right;
   cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  #units .mam_line #mama {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units .mam_line #mama {
+    display: flex;
+  }
 }
 
 #new {
@@ -1206,18 +1745,18 @@ textarea {
 #new #doubleface h1 span {
   font-family: "Lato", sans-serif;
 }
-#new #doubleface #doublefaceimage__image {
+#new #doubleface #doublefaceimage {
   padding-top: 50px;
+  width: 80%;
 }
 @media (min-width: 768px) {
-  #new #doubleface #doublefaceimage__image {
-    max-width: 90%;
+  #new #doubleface #doublefaceimage {
+    width: 75%;
   }
 }
 @media (min-width: 1024px) {
-  #new #doubleface #doublefaceimage__image {
+  #new #doubleface #doublefaceimage {
     padding-top: 50px;
-    width: 100%;
-    height: 100%;
+    width: 75%;
   }
 }
