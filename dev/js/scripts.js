@@ -333,7 +333,7 @@ function mamaAnimation(){
 
 function doublefaceAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger:"#new_stuff", scrub: true, start:"top 80%", end:"bottom 40%", markers: false}});
-  tl.from("#doublefaceimage",{duration:1, scale:1, y:"-=-100%"},"same");
+  tl.from("#doublefaceimage",{duration:1, scale:1, alpha: 0},"same");
   return tl;
 }
 
