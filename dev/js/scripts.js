@@ -307,7 +307,6 @@ function arashiAnimation(){
   return tl;
 }
 
-
 function natsumeAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#natsume", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
   tl.from("#natsume",{duration:1, clipPath:"inset(0 50%)"});
