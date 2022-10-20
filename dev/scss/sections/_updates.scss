@@ -14,6 +14,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
+        overflow: hidden;
 
         #first_line{
             font-size: rem-calc(50);
@@ -40,7 +41,7 @@
         #nikki_bday {
             padding-top: 50px;
             width: 80%;
-            overflow: hidden;
+
 
             @include md{
                 width: 75%;
