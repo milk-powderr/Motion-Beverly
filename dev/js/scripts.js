@@ -33,37 +33,37 @@ function registerAnimation(){
 
 function nikkiAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#nikki_bday", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#nikki_bday",{duration:1, scale:1, x:"-=-200%"});
-  return tl;
-}
-
-function eichiAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger: "#eichi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#eichi",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#nikki_bday",{duration:1, scale:1, x:"-=-200%", filter: "blur(10px)"});
   return tl;
 }
 
 function fineAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#fine", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.to("#fine",{scale:2, x:480});
+  tl.from("#fine",{x:480});
+  return tl;
+}
+
+function eichiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#eichi", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#eichi",{duration:2, scale:1, x:"-=-500%", ease: "bounce"});
   return tl;
 }
 
 function wataruAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#wataru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#wataru",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#wataru",{duration:2, scale:1, x:"-=-500%", ease: "bounce"});
   return tl;
 }
 
 function toriAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#tori", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#tori",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#tori",{duration:2, scale:1, x:"-=-500%", ease: "bounce"});
   return tl;
 }
 
 function yuzuruAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#yuzuru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#yuzuru",{duration:1, clipPath:"inset(0 50%)"});
+  tl.from("#yuzuru",{duration:2, scale:1, x:"-=-500%", ease: "bounce"});
   return tl;
 }
 
