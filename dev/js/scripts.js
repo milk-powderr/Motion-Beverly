@@ -43,6 +43,12 @@ function eichiAnimation(){
   return tl;
 }
 
+function fineAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#fine", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.to("#fine",{scale:2, x:480});
+  return tl;
+}
+
 function wataruAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#wataru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
   tl.from("#wataru",{duration:1, clipPath:"inset(0 50%)"});
@@ -390,4 +396,5 @@ mainTimeline.add(registerAnimation())
             .add(soraAnimation())
             .add(mamaAnimation())
             .add(doublefaceAnimation())
+            .add(fineAnimation())
             ;        
