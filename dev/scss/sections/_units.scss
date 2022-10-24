@@ -1,5 +1,6 @@
 #units{
     margin-top: 90px;
+    overflow: hidden;
 
     @include md{
         margin-top: 90px;
@@ -8,15 +9,47 @@
     @include lg{
         margin-top: 100px;
     }
-    .section{
-        position:relative;
-        overflow: visible;
-    }
+
+    #content{
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        h1{
+            font-size: rem-calc(50);
+            background-image: linear-gradient(180deg, #dd84ad, #9976e6);
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+            padding-bottom: 90px;
+
+            @include md{
+                font-size: rem-calc(60);
+                padding-bottom: 90px;
+            }
+
+            @include lg{
+                font-size: rem-calc(70);
+                font-weight: bolder;
+                padding-bottom: 110px;
+            }
+
+            span{
+                font-family: 'Lato', sans-serif;
+            }
+        }
+
+        #fine-logo{
+            padding-bottom: 50px;
+        }
 
     .person-1{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        // grid-template-columns: 50% 50%;
+        // grid-template-columns: 50% 25% 25%;
         grid-template-areas: ". person info";
 
         img{
@@ -42,308 +75,35 @@
             grid-area: info;
         }
     }
-   
-    // #content{
-        // height: 100%;
-        // align-items: center;
-        // text-align: center;
-        // justify-content: center;
 
-        // h1{
-        //     font-size: rem-calc(50);
-        //     background-image: linear-gradient(180deg, #dd84ad, #9976e6);
-        //     background-size: 100%;
-        //     -webkit-background-clip: text;
-        //     -webkit-text-fill-color: transparent; 
-        //     -moz-background-clip: text;
-        //     -moz-text-fill-color: transparent;
-        //     padding-bottom: 90px;
+    .person-3{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        // grid-template-columns: 50% 25% 25%;
+        grid-template-areas: ". person info";
 
-        //     @include md{
-        //         font-size: rem-calc(60);
-        //         padding-bottom: 90px;
-        //     }
+        img{
+            grid-area: person;
+        }
 
-        //     @include lg{
-        //         font-size: rem-calc(70);
-        //         font-weight: bolder;
-        //         padding-bottom: 110px;
-        //     }
+        div{
+            grid-area: info;
+        }
+    }
 
-        //     span{
-        //         font-family: 'Lato', sans-serif;
-        //     }
-        // }
+    .person-4{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        // grid-template-columns: 50% 25% 25%;
+        grid-template-areas: ". person info";
 
-        // .fine_line{
-            // font-size: rem-calc(50);
-            // padding-bottom: 45px;
-            // padding-top: 45px;
-            // padding-left: 3%;
-            // padding-right: 5%;
-            // color: white;
-            // text-align: left;
-            // align-items: baseline;
-            // cursor: pointer;
-            // height: 300px;
-            // margin-bottom: 90px;
+        img{
+            grid-area: person;
+        }
 
-            // @include md{
-            //     font-size: rem-calc(60);
-            // }
-
-            // @include lg{
-            //     font-size: rem-cal(70);
-            // }
-
-            // #fine {
-            //     float: left;
-            //     cursor: pointer;
-            //     padding-top: 60px;
-            //     padding-right: 40px;
-            // }
-
-            // #eichi {
-            //     float: right;
-            //     cursor: pointer;
-            //     display: none;
-            //     position: relative;
-            //     flex-wrap: wrap;
-            //     flex-direction: row;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #eichiw {
-            //     display: none;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //         width: 300px;
-            //     }
-            // }
-
-            // #eichin {
-            //     display: none;
-            //     color: #FFF3B8;
-            //     font-weight: bold;
-            //     font-size: 40px;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #eichid {
-            //     display: none;
-            //     color: #202020;
-            //     font-weight: 200;
-            //     font-size: 20px;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #wataru {
-            //     float: right;
-            //     cursor: pointer;
-            //     display: none;
-            //     position: relative;
-            //     flex-wrap: wrap;
-            //     flex-direction: row;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #wataruw {
-            //     display: none;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //         width: 300px;
-            //     }
-            // }
-
-            // #watarun {
-            //     display: none;
-            //     color: #A1D8E2;
-            //     font-weight: bold;
-            //     font-size: 40px;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #watarud {
-            //     display: none;
-            //     color: #202020;
-            //     font-weight: 200;
-            //     font-size: 20px;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #tori {
-            //     float: right;
-            //     cursor: pointer;
-            //     display: none;
-            //     position: relative;
-            //     flex-wrap: wrap;
-            //     flex-direction: row;
-
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #toriw {
-            //     display: none;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //         width: 300px;
-            //     }
-            // }
-
-            // #torin {
-            //     display: none;
-            //     color: #F5B2B2;
-            //     font-weight: bold;
-            //     font-size: 40px;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #torid {
-            //     display: none;
-            //     color: #202020;
-            //     font-weight: 200;
-            //     font-size: 20px;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #yuzuru {
-            //     float: right;
-            //     cursor: pointer;
-            //     display: none;
-            //     position: relative;
-            //     flex-wrap: wrap;
-            //     flex-direction: row;
-
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #yuzuruw {
-            //     display: none;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //         width: 300px;
-            //     }
-            // }
-
-            // #yuzurun {
-            //     display: none;
-            //     color: #3E62AD;
-            //     font-weight: bold;
-            //     font-size: 40px;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-
-            // #yuzurud {
-            //     display: none;
-            //     color: #202020;
-            //     font-weight: 200;
-            //     font-size: 20px;
-
-            //     @include md{
-            //         display: none;
-            //     }
-    
-            //     @include lg{
-            //         display: flex;
-            //     }
-            // }
-        // }
-    // }
+        div{
+            grid-area: info;
+        }
+    }
+}
 }
