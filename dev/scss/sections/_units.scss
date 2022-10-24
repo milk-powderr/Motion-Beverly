@@ -70,10 +70,10 @@
                 float: left;
                 cursor: pointer;
                 padding-top: 60px;
+                padding-right: 90px;
             }
 
             #eichi {
-                float: right;
                 cursor: pointer;
                 display: none;
 
@@ -133,6 +133,49 @@
                 float: right;
                 cursor: pointer;
                 display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
+            }
+
+            #wataruw {
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                    width: 300px;
+                }
+            }
+
+            #watarun {
+                display: none;
+                color: #A1D8E2;
+                font-weight: bold;
+                font-size: 40px;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
+            }
+
+            #watarud {
+                display: none;
+                color: #202020;
+                font-weight: 200;
+                font-size: 20px;
 
                 @include md{
                     display: none;

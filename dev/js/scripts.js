@@ -40,7 +40,7 @@ function nikkiAnimation(){
 function fineAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:2, ease:'power2.inOut', stagger: 0.5},
-    scrollTrigger:{trigger: "#fine", scrub: 0.3, pin: true, start:"top 40%", end:"-=-3000", markers: true}});
+    scrollTrigger:{trigger: "#fine", scrub: 0.3, pin: true, start:"top 40%", end:"-=-3000", markers: false}});
   tl.from("#fine",{x:480, duration:2, scale: 2});
   tl.to("#fine",{x:0, duration:2, scale: 1});
   return tl;
@@ -48,29 +48,25 @@ function fineAnimation(){
 
 function eichiAnimation(){
   var tl = gsap.timeline({
-    defaults:{duration:2, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
-      trigger: "#eichi", pin:true, scrub:0.3, start: "top 40%", end: "-=-1200", markers: false}});
+    defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
+      trigger: "#eichi", pin:true, scrub:0.3, start: "top 40%", end: "-=-1300", markers: false}});
 
-      tl.to('#eichi', {x:-100})
-      tl.from('#eichi', {opacity: 0, x:300});
+      tl.to('#eichi', {x:0})
+      tl.from('#eichi', {opacity: 0, x:1500});
   return tl;
 }
 
 function eichiwAnimation(){
   var tl = gsap.timeline({
-    defaults:{duration:2, ease:'power2.inOut', stagger: 0.25},scrollTrigger:{
-      trigger: "#eichiw", pin:true, scrub:0.3, start: "top 40%", end: "-=-1200", markers: false}});
+    defaults:{duration:3, ease:'power2.inOut', stagger: 0.55},scrollTrigger:{
+      trigger: "#eichiw", pin:true, scrub:0.3, start: "top 40%", end: "-=-1300", markers: false}});
 
-      tl.to('#eichiw', {x:100})
-      tl.from('#eichiw', {opacity: 0});
+      tl.to('#eichiw', {x:50})
+      tl.from('#eichiw', {opacity: 0, x:300});
   return tl;
 }
 
-function wataruAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger: "#wataru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#wataru",{duration:2, scale:1, x:"-=-500%"});
-  return tl;
-}
+
 
 function toriAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger: "#tori", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
@@ -94,10 +90,11 @@ var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
             .add(nikkiAnimation())
             .add(eichiAnimation())
-            .add(wataruAnimation())
+
             .add(toriAnimation())
             .add(yuzuruAnimation())
             .add(doublefaceAnimation())
             .add(fineAnimation())
             .add(eichiwAnimation())
+
             ;        
