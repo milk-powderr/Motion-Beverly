@@ -41,7 +41,7 @@ function fineAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:2, ease:'power2.inOut', stagger: 0.5},
     scrollTrigger:{trigger: "#fine", scrub: 0.3, pin: true, start:"top 40%", end:"-=-6000", markers: false}});
-  tl.from("#fine",{x:480, duration:2, scale: 2});
+  tl.from("#fine",{x:650, duration:2, scale: 2});
   tl.to("#fine",{x:0, duration:2, scale: 1});
   return tl;
 }
@@ -69,7 +69,7 @@ function eichiwAnimation(){
 function wataruAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
-      trigger: "#wataru", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: true}});
+      trigger: "#wataru", pin:true, scrub:0.3, start: "top 150%", end: "-=-2600", markers: true}});
 
       tl.to('#wataru', {x:40})
       tl.from('#wataru', {opacity: 0, x:500});
@@ -79,18 +79,17 @@ function wataruAnimation(){
 function wataruwAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
-      trigger: "#wataruw", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: false}});
+      trigger: "#wataruw", pin:true, scrub:0.3, start: "top 150%", end: "-=-2600", markers: false}});
 
       tl.to('#wataruw', {x:0})
       tl.from('#wataruw', {opacity: 0, x:300});
   return tl;
 }
 
-
 function toriAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
-      trigger: "#tori", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: true}});
+      trigger: "#tori", pin:true, scrub:0.3, start: "top 260%", end: "-=-3900", markers: true}});
 
       tl.to('#tori', {x:40})
       tl.from('#tori', {opacity: 0, x:500});
@@ -100,7 +99,7 @@ function toriAnimation(){
 function toriwAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
-      trigger: "#toriw", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: false}});
+      trigger: "#toriw", pin:true, scrub:0.3, start: "top 260%", end: "-=-3900", markers: false}});
 
       tl.to('#toriw', {x:0})
       tl.from('#toriw', {opacity: 0, x:300});
@@ -110,7 +109,7 @@ function toriwAnimation(){
 function yuzuruAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
-      trigger: "#yuzuru", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: true}});
+      trigger: "#yuzuru", pin:true, scrub:0.3, start: "top 370%", end: "-=-5200", markers: true}});
 
       tl.to('#yuzuru', {x:40})
       tl.from('#yuzuru', {opacity: 0, x:500});
@@ -120,7 +119,7 @@ function yuzuruAnimation(){
 function yuzuruwAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
-      trigger: "#yuzuruw", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: false}});
+      trigger: "#yuzuruw", pin:true, scrub:0.3, start: "top 370%", end: "-=-5200", markers: false}});
 
       tl.to('#yuzuruw', {x:0})
       tl.from('#yuzuruw', {opacity: 0, x:300});
