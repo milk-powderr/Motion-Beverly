@@ -468,14 +468,14 @@ textarea {
     margin-top: 90px;
   }
 }
-#updates #content {
+#updates #content-updates {
   height: 100%;
   align-items: center;
   text-align: center;
   justify-content: center;
   overflow: hidden;
 }
-#updates #content #first_line {
+#updates #content-updates #first_line {
   font-size: 3.125rem;
   background-image: linear-gradient(180deg, #dd84ad, #9976e6);
   background-size: 100%;
@@ -486,29 +486,29 @@ textarea {
   padding-bottom: 90px;
 }
 @media (min-width: 768px) {
-  #updates #content #first_line {
+  #updates #content-updates #first_line {
     font-size: 3.75rem;
     padding-bottom: 90px;
   }
 }
 @media (min-width: 1024px) {
-  #updates #content #first_line {
+  #updates #content-updates #first_line {
     font-size: 4.375rem;
     font-weight: bolder;
     padding-bottom: 110px;
   }
 }
-#updates #content #nikki_bday {
+#updates #content-updates #nikki_bday {
   padding-top: 50px;
   width: 80%;
 }
 @media (min-width: 768px) {
-  #updates #content #nikki_bday {
+  #updates #content-updates #nikki_bday {
     width: 75%;
   }
 }
 @media (min-width: 1024px) {
-  #updates #content #nikki_bday {
+  #updates #content-updates #nikki_bday {
     padding-top: 50px;
     width: 75%;
   }
@@ -531,322 +531,27 @@ textarea {
   position: relative;
   overflow: visible;
 }
-#units #content {
-  height: 100%;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+#units .person-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ". person info";
 }
-#units #content h1 {
-  font-size: 3.125rem;
-  background-image: linear-gradient(180deg, #dd84ad, #9976e6);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  padding-bottom: 90px;
+#units .person-1 img {
+  grid-area: person;
 }
-@media (min-width: 768px) {
-  #units #content h1 {
-    font-size: 3.75rem;
-    padding-bottom: 90px;
-  }
+#units .person-1 div {
+  grid-area: info;
 }
-@media (min-width: 1024px) {
-  #units #content h1 {
-    font-size: 4.375rem;
-    font-weight: bolder;
-    padding-bottom: 110px;
-  }
+#units .person-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ". person info";
 }
-#units #content h1 span {
-  font-family: "Lato", sans-serif;
+#units .person-2 img {
+  grid-area: person;
 }
-#units #content .fine_line {
-  font-size: 3.125rem;
-  padding-bottom: 45px;
-  padding-top: 45px;
-  padding-left: 3%;
-  padding-right: 5%;
-  color: white;
-  text-align: left;
-  align-items: baseline;
-  cursor: pointer;
-  height: 300px;
-  margin-bottom: 90px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line {
-    font-size: 3.75rem;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line {
-    font-size: rem-cal(70);
-  }
-}
-#units #content .fine_line #fine {
-  float: left;
-  cursor: pointer;
-  padding-top: 60px;
-  padding-right: 40px;
-}
-#units #content .fine_line #eichi {
-  float: right;
-  cursor: pointer;
-  display: none;
-  position: relative;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #eichi {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #eichi {
-    display: flex;
-  }
-}
-#units #content .fine_line #eichiw {
-  display: none;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #eichiw {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #eichiw {
-    display: flex;
-    width: 300px;
-  }
-}
-#units #content .fine_line #eichin {
-  display: none;
-  color: #FFF3B8;
-  font-weight: bold;
-  font-size: 40px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #eichin {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #eichin {
-    display: flex;
-  }
-}
-#units #content .fine_line #eichid {
-  display: none;
-  color: #202020;
-  font-weight: 200;
-  font-size: 20px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #eichid {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #eichid {
-    display: flex;
-  }
-}
-#units #content .fine_line #wataru {
-  float: right;
-  cursor: pointer;
-  display: none;
-  position: relative;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #wataru {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #wataru {
-    display: flex;
-  }
-}
-#units #content .fine_line #wataruw {
-  display: none;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #wataruw {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #wataruw {
-    display: flex;
-    width: 300px;
-  }
-}
-#units #content .fine_line #watarun {
-  display: none;
-  color: #A1D8E2;
-  font-weight: bold;
-  font-size: 40px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #watarun {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #watarun {
-    display: flex;
-  }
-}
-#units #content .fine_line #watarud {
-  display: none;
-  color: #202020;
-  font-weight: 200;
-  font-size: 20px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #watarud {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #watarud {
-    display: flex;
-  }
-}
-#units #content .fine_line #tori {
-  float: right;
-  cursor: pointer;
-  display: none;
-  position: relative;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #tori {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #tori {
-    display: flex;
-  }
-}
-#units #content .fine_line #toriw {
-  display: none;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #toriw {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #toriw {
-    display: flex;
-    width: 300px;
-  }
-}
-#units #content .fine_line #torin {
-  display: none;
-  color: #F5B2B2;
-  font-weight: bold;
-  font-size: 40px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #torin {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #torin {
-    display: flex;
-  }
-}
-#units #content .fine_line #torid {
-  display: none;
-  color: #202020;
-  font-weight: 200;
-  font-size: 20px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #torid {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #torid {
-    display: flex;
-  }
-}
-#units #content .fine_line #yuzuru {
-  float: right;
-  cursor: pointer;
-  display: none;
-  position: relative;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #yuzuru {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #yuzuru {
-    display: flex;
-  }
-}
-#units #content .fine_line #yuzuruw {
-  display: none;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #yuzuruw {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #yuzuruw {
-    display: flex;
-    width: 300px;
-  }
-}
-#units #content .fine_line #yuzurun {
-  display: none;
-  color: #3E62AD;
-  font-weight: bold;
-  font-size: 40px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #yuzurun {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #yuzurun {
-    display: flex;
-  }
-}
-#units #content .fine_line #yuzurud {
-  display: none;
-  color: #202020;
-  font-weight: 200;
-  font-size: 20px;
-}
-@media (min-width: 768px) {
-  #units #content .fine_line #yuzurud {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  #units #content .fine_line #yuzurud {
-    display: flex;
-  }
+#units .person-2 div {
+  grid-area: info;
 }
 
 #new {
@@ -859,7 +564,7 @@ textarea {
 }
 @media (min-width: 1024px) {
   #new {
-    margin-top: 9000px;
+    margin-top: 90px;
   }
 }
 #new #doubleface {
