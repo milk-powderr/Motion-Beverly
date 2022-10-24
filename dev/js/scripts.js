@@ -40,7 +40,7 @@ function nikkiAnimation(){
 function fineAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:2, ease:'power2.inOut', stagger: 0.5},
-    scrollTrigger:{trigger: "#fine", scrub: 0.3, pin: true, start:"top 40%", end:"-=-3000", markers: false}});
+    scrollTrigger:{trigger: "#fine", scrub: 0.3, pin: true, start:"top 40%", end:"-=-6000", markers: false}});
   tl.from("#fine",{x:480, duration:2, scale: 2});
   tl.to("#fine",{x:0, duration:2, scale: 1});
   return tl;
@@ -51,8 +51,8 @@ function eichiAnimation(){
     defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
       trigger: "#eichi", pin:true, scrub:0.3, start: "top 40%", end: "-=-1300", markers: false}});
 
-      tl.to('#eichi', {x:0})
-      tl.from('#eichi', {opacity: 0, x:1500});
+      tl.to('#eichi', {x:40})
+      tl.from('#eichi', {opacity: 0, x:500});
   return tl;
 }
 
@@ -61,22 +61,69 @@ function eichiwAnimation(){
     defaults:{duration:3, ease:'power2.inOut', stagger: 0.55},scrollTrigger:{
       trigger: "#eichiw", pin:true, scrub:0.3, start: "top 40%", end: "-=-1300", markers: false}});
 
-      tl.to('#eichiw', {x:50})
+      tl.to('#eichiw', {x:0})
       tl.from('#eichiw', {opacity: 0, x:300});
   return tl;
 }
 
+function wataruAnimation(){
+  var tl = gsap.timeline({
+    defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
+      trigger: "#wataru", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: true}});
+
+      tl.to('#wataru', {x:40})
+      tl.from('#wataru', {opacity: 0, x:500});
+  return tl;
+}
+
+function wataruwAnimation(){
+  var tl = gsap.timeline({
+    defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
+      trigger: "#wataruw", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: false}});
+
+      tl.to('#wataruw', {x:0})
+      tl.from('#wataruw', {opacity: 0, x:300});
+  return tl;
+}
 
 
 function toriAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger: "#tori", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#tori",{duration:2, scale:1, x:"-=-500%"});
+  var tl = gsap.timeline({
+    defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
+      trigger: "#tori", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: true}});
+
+      tl.to('#tori', {x:40})
+      tl.from('#tori', {opacity: 0, x:500});
+  return tl;
+}
+
+function toriwAnimation(){
+  var tl = gsap.timeline({
+    defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
+      trigger: "#toriw", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: false}});
+
+      tl.to('#toriw', {x:0})
+      tl.from('#toriw', {opacity: 0, x:300});
   return tl;
 }
 
 function yuzuruAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger: "#yuzuru", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
-  tl.from("#yuzuru",{duration:2, scale:1, x:"-=-500%"});
+  var tl = gsap.timeline({
+    defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
+      trigger: "#yuzuru", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: true}});
+
+      tl.to('#yuzuru', {x:40})
+      tl.from('#yuzuru', {opacity: 0, x:500});
+  return tl;
+}
+
+function yuzuruwAnimation(){
+  var tl = gsap.timeline({
+    defaults:{duration:3, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
+      trigger: "#yuzuruw", pin:true, scrub:0.3, start: "top 150%", end: "-=-1300", markers: false}});
+
+      tl.to('#yuzuruw', {x:0})
+      tl.from('#yuzuruw', {opacity: 0, x:300});
   return tl;
 }
 
@@ -90,11 +137,13 @@ var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
             .add(nikkiAnimation())
             .add(eichiAnimation())
-
+            .add(wataruAnimation())
             .add(toriAnimation())
             .add(yuzuruAnimation())
             .add(doublefaceAnimation())
             .add(fineAnimation())
             .add(eichiwAnimation())
-
+            .add(wataruwAnimation())
+            .add(toriwAnimation())
+            .add(yuzuruwAnimation())
             ;        

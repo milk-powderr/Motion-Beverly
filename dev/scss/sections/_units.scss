@@ -70,12 +70,16 @@
                 float: left;
                 cursor: pointer;
                 padding-top: 60px;
-                padding-right: 90px;
+                padding-right: 40px;
             }
 
             #eichi {
+                float: right;
                 cursor: pointer;
                 display: none;
+                position: relative;
+                flex-wrap: wrap;
+                flex-direction: row;
 
                 @include md{
                     display: none;
@@ -133,6 +137,9 @@
                 float: right;
                 cursor: pointer;
                 display: none;
+                position: relative;
+                flex-wrap: wrap;
+                flex-direction: row;
 
                 @include md{
                     display: none;
@@ -190,6 +197,53 @@
                 float: right;
                 cursor: pointer;
                 display: none;
+                position: relative;
+                flex-wrap: wrap;
+                flex-direction: row;
+
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
+            }
+
+            #toriw {
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                    width: 300px;
+                }
+            }
+
+            #torin {
+                display: none;
+                color: #F5B2B2;
+                font-weight: bold;
+                font-size: 40px;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
+            }
+
+            #torid {
+                display: none;
+                color: #202020;
+                font-weight: 200;
+                font-size: 20px;
 
                 @include md{
                     display: none;
@@ -204,6 +258,53 @@
                 float: right;
                 cursor: pointer;
                 display: none;
+                position: relative;
+                flex-wrap: wrap;
+                flex-direction: row;
+
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
+            }
+
+            #yuzuruw {
+                display: none;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                    width: 300px;
+                }
+            }
+
+            #yuzurun {
+                display: none;
+                color: #3E62AD;
+                font-weight: bold;
+                font-size: 40px;
+
+                @include md{
+                    display: none;
+                }
+    
+                @include lg{
+                    display: flex;
+                }
+            }
+
+            #yuzurud {
+                display: none;
+                color: #202020;
+                font-weight: 200;
+                font-size: 20px;
 
                 @include md{
                     display: none;

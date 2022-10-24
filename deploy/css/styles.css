@@ -590,11 +590,15 @@ textarea {
   float: left;
   cursor: pointer;
   padding-top: 60px;
-  padding-right: 90px;
+  padding-right: 40px;
 }
 #units #content .fine_line #eichi {
+  float: right;
   cursor: pointer;
   display: none;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 @media (min-width: 768px) {
   #units #content .fine_line #eichi {
@@ -656,6 +660,9 @@ textarea {
   float: right;
   cursor: pointer;
   display: none;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 @media (min-width: 768px) {
   #units #content .fine_line #wataru {
@@ -717,6 +724,9 @@ textarea {
   float: right;
   cursor: pointer;
   display: none;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 @media (min-width: 768px) {
   #units #content .fine_line #tori {
@@ -728,10 +738,59 @@ textarea {
     display: flex;
   }
 }
+#units #content .fine_line #toriw {
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #toriw {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #toriw {
+    display: flex;
+    width: 300px;
+  }
+}
+#units #content .fine_line #torin {
+  display: none;
+  color: #F5B2B2;
+  font-weight: bold;
+  font-size: 40px;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #torin {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #torin {
+    display: flex;
+  }
+}
+#units #content .fine_line #torid {
+  display: none;
+  color: #202020;
+  font-weight: 200;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #torid {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #torid {
+    display: flex;
+  }
+}
 #units #content .fine_line #yuzuru {
   float: right;
   cursor: pointer;
   display: none;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 @media (min-width: 768px) {
   #units #content .fine_line #yuzuru {
@@ -740,6 +799,52 @@ textarea {
 }
 @media (min-width: 1024px) {
   #units #content .fine_line #yuzuru {
+    display: flex;
+  }
+}
+#units #content .fine_line #yuzuruw {
+  display: none;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #yuzuruw {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #yuzuruw {
+    display: flex;
+    width: 300px;
+  }
+}
+#units #content .fine_line #yuzurun {
+  display: none;
+  color: #3E62AD;
+  font-weight: bold;
+  font-size: 40px;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #yuzurun {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #yuzurun {
+    display: flex;
+  }
+}
+#units #content .fine_line #yuzurud {
+  display: none;
+  color: #202020;
+  font-weight: 200;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  #units #content .fine_line #yuzurud {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .fine_line #yuzurud {
     display: flex;
   }
 }
@@ -754,7 +859,7 @@ textarea {
 }
 @media (min-width: 1024px) {
   #new {
-    margin-top: 5000px;
+    margin-top: 9000px;
   }
 }
 #new #doubleface {
