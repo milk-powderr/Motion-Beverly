@@ -40,7 +40,7 @@ function nikkiAnimation(){
 function fineAnimation(){
   var tl = gsap.timeline({
     defaults:{duration:2, ease:'power2.inOut', stagger: 0.5},
-    scrollTrigger:{trigger: "#fine", scrub: 0.3, pin: true, start:"top 40%", end:"-=-2000", markers: true}});
+    scrollTrigger:{trigger: "#fine", scrub: 0.3, pin: true, start:"top 40%", end:"-=-3000", markers: true}});
   tl.from("#fine",{x:480, duration:2, scale: 2});
   tl.to("#fine",{x:0, duration:2, scale: 1});
   return tl;
@@ -48,23 +48,21 @@ function fineAnimation(){
 
 function eichiAnimation(){
   var tl = gsap.timeline({
-    defaults:{duration:2, ease:'power2.inOut', stagger: 0.25},scrollTrigger:{
-      trigger: "#eichi", pin:true, scrub:0.3, start: "top 40%", end: "-=-2000", markers: false}});
+    defaults:{duration:2, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
+      trigger: "#eichi", pin:true, scrub:0.3, start: "top 40%", end: "-=-1200", markers: false}});
 
       tl.to('#eichi', {x:-100})
-      tl.from('#eichi', {opacity: 0})
-      .to({},{});
+      tl.from('#eichi', {opacity: 0, x:300});
   return tl;
 }
 
 function eichiwAnimation(){
   var tl = gsap.timeline({
-    defaults:{duration:2, ease:'power2.inOut', stagger: 0.5},scrollTrigger:{
-      trigger: "#eichiw", pin:true, scrub:0.3, start: "top 40%", end: "-=-2000", markers: false}});
+    defaults:{duration:2, ease:'power2.inOut', stagger: 0.25},scrollTrigger:{
+      trigger: "#eichiw", pin:true, scrub:0.3, start: "top 40%", end: "-=-1200", markers: false}});
 
-      tl.to('#eichiw', {x:580})
-      tl.from('#eichiw', {opacity: 0})
-      .to({},{});
+      tl.to('#eichiw', {x:100})
+      tl.from('#eichiw', {opacity: 0});
   return tl;
 }
 
