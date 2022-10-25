@@ -1,109 +1,146 @@
-#units{
+#units {
     margin-top: 90px;
     overflow: hidden;
 
-    @include md{
+    @include md {
         margin-top: 90px;
     }
 
-    @include lg{
+    @include lg {
         margin-top: 100px;
     }
 
-    #content{
+    #content {
         height: 100%;
         align-items: center;
         text-align: center;
         justify-content: center;
 
-        h1{
+        h1 {
             font-size: rem-calc(50);
             background-image: linear-gradient(180deg, #dd84ad, #9976e6);
             background-size: 100%;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent; 
+            -webkit-text-fill-color: transparent;
             -moz-background-clip: text;
             -moz-text-fill-color: transparent;
             padding-bottom: 90px;
 
-            @include md{
+            @include md {
                 font-size: rem-calc(60);
                 padding-bottom: 90px;
             }
 
-            @include lg{
+            @include lg {
                 font-size: rem-calc(70);
                 font-weight: bolder;
                 padding-bottom: 110px;
             }
 
-            span{
+            span {
                 font-family: 'Lato', sans-serif;
             }
         }
 
-        #fine-logo{
-            padding-bottom: 50px;
+        #fine-logo {
+            padding-bottom: 150px;
         }
 
-    .person-1{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        // grid-template-columns: 50% 25% 25%;
-        grid-template-areas: ". person info";
+        .person-1 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
 
-        img{
-            grid-area: person;
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 500px;
+            }
+
+            .eichin {
+                color: #FFF3B8;
+            }
         }
 
-        div{
-            grid-area: info;
+        .person-2 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 500px;
+            }
+
+            .watarun {
+                color: #A1D8E2;
+            }
+        }
+
+        .person-3 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 500px;
+            }
+
+            .torin {
+                color: #F5B2B2;
+            }
+        }
+
+        .person-4 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 500px;
+            }
+
+            .yuzurun {
+                color: #3E62AD;
+            }
+
         }
     }
-
-    .person-2{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        // grid-template-columns: 50% 25% 25%;
-        grid-template-areas: ". person info";
-
-        img{
-            grid-area: person;
-        }
-
-        div{
-            grid-area: info;
-        }
-    }
-
-    .person-3{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        // grid-template-columns: 50% 25% 25%;
-        grid-template-areas: ". person info";
-
-        img{
-            grid-area: person;
-        }
-
-        div{
-            grid-area: info;
-        }
-    }
-
-    .person-4{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        // grid-template-columns: 50% 25% 25%;
-        grid-template-areas: ". person info";
-
-        img{
-            grid-area: person;
-        }
-
-        div{
-            grid-area: info;
-        }
-    }
-}
 }

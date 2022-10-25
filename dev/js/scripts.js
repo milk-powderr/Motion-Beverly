@@ -29,6 +29,12 @@ function registerAnimation() {
   return tl;
 }
 
+function nikkiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger: "#nikki_bday", scrub: true, start:"top 80%", end:"bottom 90%", markers: false}});
+  tl.from("#nikki_bday",{duration:1, scale:1, filter: "blur(20px)"});
+  return tl;
+}
+
 function fineAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger:"#fine-logo",scrub:true, start:"top center", pin:true, markers:false, pinSpacer: false}});
   tl.from("#fine-logo",{duration:1, scale:2});
@@ -36,25 +42,25 @@ function fineAnimation(){
 }
 
 function personAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-1",scrub:true, start:"top 80%",end:"bottom 30%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-1",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
   tl.from(".person-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personTwoAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-2",scrub:true, start:"top 80%",end:"bottom 30%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-2",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
   tl.from(".person2-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personThreeAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-3",scrub:true, start:"top 80%",end:"bottom 30%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-3",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
   tl.from(".person3-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personFourAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-4",scrub:true, start:"top 80%",end:"bottom 30%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-4",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
   tl.from(".person4-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
@@ -62,6 +68,7 @@ function personFourAnimation(){
 var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
 .add(fineAnimation())
+.add(nikkiAnimation())
 .add(personAnimation())
 .add(personTwoAnimation())
 .add(personThreeAnimation())

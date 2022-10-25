@@ -561,51 +561,83 @@ textarea {
   font-family: "Lato", sans-serif;
 }
 #units #content #fine-logo {
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 #units #content .person-1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2);
   grid-template-areas: ". person info";
+  padding-bottom: 100px;
 }
 #units #content .person-1 img {
   grid-area: person;
+  padding-left: 800px;
 }
 #units #content .person-1 div {
   grid-area: info;
+  width: 300px;
+  text-align: left;
+  padding-right: 500px;
+}
+#units #content .person-1 .eichin {
+  color: #FFF3B8;
 }
 #units #content .person-2 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2);
   grid-template-areas: ". person info";
+  padding-bottom: 100px;
 }
 #units #content .person-2 img {
   grid-area: person;
+  padding-left: 800px;
 }
 #units #content .person-2 div {
   grid-area: info;
+  width: 300px;
+  text-align: left;
+  padding-right: 500px;
+}
+#units #content .person-2 .watarun {
+  color: #A1D8E2;
 }
 #units #content .person-3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2);
   grid-template-areas: ". person info";
+  padding-bottom: 100px;
 }
 #units #content .person-3 img {
   grid-area: person;
+  padding-left: 800px;
 }
 #units #content .person-3 div {
   grid-area: info;
+  width: 300px;
+  text-align: left;
+  padding-right: 500px;
+}
+#units #content .person-3 .torin {
+  color: #F5B2B2;
 }
 #units #content .person-4 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2);
   grid-template-areas: ". person info";
+  padding-bottom: 100px;
 }
 #units #content .person-4 img {
   grid-area: person;
+  padding-left: 800px;
 }
 #units #content .person-4 div {
   grid-area: info;
+  width: 300px;
+  text-align: left;
+  padding-right: 500px;
+}
+#units #content .person-4 .yuzurun {
+  color: #3E62AD;
 }
 
 #new {
