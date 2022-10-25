@@ -95,6 +95,42 @@ function personEightAnimation(){
   return tl;
 }
 
+function ryuseitaiAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:"#ryuseitai-logo",scrub:true, start:"top center", pin:true, markers:false, pinSpacer: false}});
+  tl.from("#ryuseitai-logo",{duration:1, scale:1.5});
+  return tl;
+}
+
+function personNineAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-9",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person9-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
+function personTenAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-10",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person10-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
+function personElevenAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-11",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person11-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
+function personTwelveAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-12",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person12-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
+function personThirteenAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-13",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person13-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
 function doublefaceAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger:"#new_stuff", scrub: true, start:"top 80%", end:"bottom 40%", markers: false}});
   tl.from("#doublefaceimage",{duration:1, clipPath:"inset(0 50%)"},"same");
@@ -114,5 +150,11 @@ mainTimeline.add(registerAnimation())
 .add(personSixAnimation())
 .add(personSevenAnimation())
 .add(personEightAnimation())
+.add(ryuseitaiAnimation())
+.add(personNineAnimation())
+.add(personTenAnimation())
+.add(personElevenAnimation())
+.add(personTwelveAnimation())
+.add(personThirteenAnimation())
 .add(doublefaceAnimation())
-  ;        
+;        

@@ -303,5 +303,170 @@
                 color: #941F57;
             }
         }
+
+        #ryuseitai-logo {
+            padding-bottom: 150px;
+            padding-top: 110px;
+        }
+
+        .person-9 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 790px;
+
+                @include md {
+                    padding-right: 600px;
+                }
+
+                @include lg {
+                    padding-right: 500px;
+                }
+            }
+
+            .chiakin {
+                color: #E60033;
+            }
+        }
+
+        .person-10 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 790px;
+
+                @include md {
+                    padding-right: 600px;
+                }
+
+                @include lg {
+                    padding-right: 500px;
+                }
+            }
+
+            .kanatan {
+                color: #008DB7;
+            }
+        }
+
+        .person-11 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 790px;
+
+                @include md {
+                    padding-right: 600px;
+                }
+
+                @include lg {
+                    padding-right: 500px;
+                }
+            }
+
+            .tetoran {
+                color: #302833;
+            }
+        }
+
+        .person-12 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 790px;
+
+                @include md {
+                    padding-right: 600px;
+                }
+
+                @include lg {
+                    padding-right: 500px;
+                }
+            }
+
+            .midorin {
+                color: #00533F;
+            }
+        }
+
+        .person-13 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". person info";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-left: 800px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: left;
+                padding-right: 790px;
+
+                @include md {
+                    padding-right: 600px;
+                }
+
+                @include lg {
+                    padding-right: 500px;
+                }
+            }
+
+            .shinobun {
+                color: #FFDC00;
+            }
+        }
     }
 }
