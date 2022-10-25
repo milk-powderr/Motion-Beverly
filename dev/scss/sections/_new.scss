@@ -1,12 +1,15 @@
 #new {
     margin-top: 90px;
+    padding-bottom: 50px;
 
     @include md {
         margin-top: 90px;
+        padding-bottom: 70px;
     }
 
     @include lg {
         margin-top: 90px;
+        padding-bottom: 80px;
     }
 
     #doubleface {
@@ -48,7 +51,6 @@
 
             @include md {
                 width: 75%;
-
             }
 
             @include lg {

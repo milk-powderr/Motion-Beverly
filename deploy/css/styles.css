@@ -698,6 +698,7 @@ textarea {
   grid-area: info;
   width: 300px;
   text-align: right;
+  padding-left: 730px;
 }
 @media (min-width: 768px) {
   #units #content .person-5 div {
@@ -726,6 +727,7 @@ textarea {
   grid-area: info;
   width: 300px;
   text-align: right;
+  padding-left: 730px;
 }
 @media (min-width: 768px) {
   #units #content .person-6 div {
@@ -754,6 +756,7 @@ textarea {
   grid-area: info;
   width: 300px;
   text-align: right;
+  padding-left: 730px;
 }
 @media (min-width: 768px) {
   #units #content .person-7 div {
@@ -782,6 +785,7 @@ textarea {
   grid-area: info;
   width: 300px;
   text-align: right;
+  padding-left: 730px;
 }
 @media (min-width: 768px) {
   #units #content .person-8 div {
@@ -948,15 +952,18 @@ textarea {
 
 #new {
   margin-top: 90px;
+  padding-bottom: 50px;
 }
 @media (min-width: 768px) {
   #new {
     margin-top: 90px;
+    padding-bottom: 70px;
   }
 }
 @media (min-width: 1024px) {
   #new {
     margin-top: 90px;
+    padding-bottom: 80px;
   }
 }
 #new #doubleface {
