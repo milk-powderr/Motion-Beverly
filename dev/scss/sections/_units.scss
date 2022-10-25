@@ -173,7 +173,135 @@
             .yuzurun {
                 color: #3E62AD;
             }
+        }
 
+        #trickstar-logo {
+            padding-bottom: 150px;
+            padding-top: 110px;
+        }
+
+        .person-5 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". info person";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-right: 750px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: right;
+
+                @include md{
+                    padding-left: 600px;
+                }
+
+                @include lg{
+                    padding-left: 500px;
+                }
+            }
+
+            .hokken {
+                color: #0068B7;
+            }
+        }
+
+        .person-6 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". info person";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-right: 750px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: right;
+
+                @include md{
+                    padding-left: 600px;
+                }
+
+                @include lg{
+                    padding-left: 500px;
+                }
+            }
+
+            .subarun {
+                color: #F3981D;
+            }
+        }
+
+        .person-7 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ". info person";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-right: 750px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: right;
+
+                @include md{
+                    padding-left: 600px;
+                }
+
+                @include lg{
+                    padding-left: 500px;
+                }
+            }
+
+            .yukin {
+                color: #65AB31;
+            }
+        }
+
+        .person-8 {
+            display: grid;
+            grid-template-columns: repeat(2);
+            // grid-template-columns: 100%;
+            grid-template-areas: ".info person";
+            padding-bottom: 100px;
+
+            img {
+                grid-area: person;
+                padding-right: 750px;
+            }
+
+            div {
+                grid-area: info;
+                width: 300px;
+                text-align: right;
+
+                @include md{
+                    padding-left: 600px;
+                }
+
+                @include lg{
+                    padding-left: 500px;
+                }
+            }
+
+            .sallyn {
+                color: #941F57;
+            }
         }
     }
 }

@@ -65,6 +65,36 @@ function personFourAnimation(){
   return tl;
 }
 
+function trickstarAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:"#trickstar-logo",scrub:true, start:"top center", pin:true, markers:false, pinSpacer: false}});
+  tl.from("#trickstar-logo",{duration:1, scale:1.5});
+  return tl;
+}
+
+function personFiveAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-5",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person5-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
+function personSixAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-6",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person6-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
+function personSevenAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-7",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person7-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
+function personEightAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-8",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  tl.from(".person8-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
+  return tl;
+}
+
 function doublefaceAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger:"#new_stuff", scrub: true, start:"top 80%", end:"bottom 40%", markers: false}});
   tl.from("#doublefaceimage",{duration:1, clipPath:"inset(0 50%)"},"same");
@@ -79,5 +109,10 @@ mainTimeline.add(registerAnimation())
 .add(personTwoAnimation())
 .add(personThreeAnimation())
 .add(personFourAnimation())
+.add(trickstarAnimation())
+.add(personFiveAnimation())
+.add(personSixAnimation())
+.add(personSevenAnimation())
+.add(personEightAnimation())
 .add(doublefaceAnimation())
   ;        
