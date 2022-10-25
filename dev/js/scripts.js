@@ -42,25 +42,25 @@ function fineAnimation(){
 }
 
 function personAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-1",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-1",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personTwoAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-2",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-2",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person2-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personThreeAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-3",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-3",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person3-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personFourAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-4",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-4",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person4-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
@@ -72,25 +72,25 @@ function trickstarAnimation(){
 }
 
 function personFiveAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-5",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-5",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person5-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personSixAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-6",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-6",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person6-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personSevenAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-7",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-7",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person7-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personEightAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-8",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-8",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person8-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
@@ -102,25 +102,25 @@ function ryuseitaiAnimation(){
 }
 
 function personNineAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-9",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-9",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person9-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personTenAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-10",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-10",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person10-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personElevenAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-11",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-11",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person11-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
 
 function personTwelveAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-12",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-12",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person12-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
