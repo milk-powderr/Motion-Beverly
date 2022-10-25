@@ -126,7 +126,7 @@ function personTwelveAnimation(){
 }
 
 function personThirteenAnimation(){
-  var tl = gsap.timeline({scrollTrigger:{trigger:".person-13",scrub:true, start:"top 80%",end:"bottom 60%", markers:true}});
+  var tl = gsap.timeline({scrollTrigger:{trigger:".person-13",scrub:true, start:"top 80%",end:"bottom 60%", markers:false}});
   tl.from(".person13-item",{duration:1, x:"+=100", alpha:0, stagger:0.5});
   return tl;
 }
