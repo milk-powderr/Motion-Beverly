@@ -37,7 +37,7 @@ function nikkiAnimation(){
 
 function fineAnimation(){
   var tl = gsap.timeline({scrollTrigger:{trigger:"#fine-logo",scrub:true, start:"top center", pin:true, markers:false, pinSpacer: false}});
-  tl.from("#fine-logo",{duration:1, scale:2});
+  tl.from("#fine-logo",{duration:1, scale:1.5});
   return tl;
 }
 
@@ -65,6 +65,12 @@ function personFourAnimation(){
   return tl;
 }
 
+function doublefaceAnimation(){
+  var tl = gsap.timeline({scrollTrigger:{trigger:"#new_stuff", scrub: true, start:"top 80%", end:"bottom 40%", markers: false}});
+  tl.from("#doublefaceimage",{duration:1, clipPath:"inset(0 50%)"},"same");
+  return tl;
+}
+
 var mainTimeline = gsap.timeline();
 mainTimeline.add(registerAnimation())
 .add(fineAnimation())
@@ -73,4 +79,5 @@ mainTimeline.add(registerAnimation())
 .add(personTwoAnimation())
 .add(personThreeAnimation())
 .add(personFourAnimation())
+.add(doublefaceAnimation())
   ;        

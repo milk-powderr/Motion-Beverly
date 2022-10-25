@@ -15,6 +15,7 @@
         align-items: center;
         text-align: center;
         justify-content: center;
+        display: flex;
 
         h1 {
             font-size: rem-calc(50);
@@ -34,7 +35,7 @@
             @include lg {
                 font-size: rem-calc(70);
                 font-weight: bolder;
-                padding-bottom: 110px;
+                padding-bottom: 140px;
             }
 
             span {
@@ -62,7 +63,15 @@
                 grid-area: info;
                 width: 300px;
                 text-align: left;
-                padding-right: 500px;
+                padding-right: 790px;
+
+                @include md{
+                    padding-right: 600px;
+                }
+
+                @include lg{
+                    padding-right: 500px;
+                }
             }
 
             .eichin {
@@ -86,7 +95,15 @@
                 grid-area: info;
                 width: 300px;
                 text-align: left;
-                padding-right: 500px;
+                padding-right: 790px;
+
+                @include md{
+                    padding-right: 600px;
+                }
+
+                @include lg{
+                    padding-right: 500px;
+                }
             }
 
             .watarun {
@@ -110,7 +127,15 @@
                 grid-area: info;
                 width: 300px;
                 text-align: left;
-                padding-right: 500px;
+                padding-right: 790px;
+
+                @include md{
+                    padding-right: 600px;
+                }
+
+                @include lg{
+                    padding-right: 500px;
+                }
             }
 
             .torin {
@@ -134,7 +159,15 @@
                 grid-area: info;
                 width: 300px;
                 text-align: left;
-                padding-right: 500px;
+                padding-right: 790px;
+
+                @include md{
+                    padding-right: 600px;
+                }
+
+                @include lg{
+                    padding-right: 500px;
+                }
             }
 
             .yuzurun {

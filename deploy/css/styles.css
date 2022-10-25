@@ -533,6 +533,7 @@ textarea {
   align-items: center;
   text-align: center;
   justify-content: center;
+  display: flex;
 }
 #units #content h1 {
   font-size: 3.125rem;
@@ -554,7 +555,7 @@ textarea {
   #units #content h1 {
     font-size: 4.375rem;
     font-weight: bolder;
-    padding-bottom: 110px;
+    padding-bottom: 140px;
   }
 }
 #units #content h1 span {
@@ -577,7 +578,17 @@ textarea {
   grid-area: info;
   width: 300px;
   text-align: left;
-  padding-right: 500px;
+  padding-right: 790px;
+}
+@media (min-width: 768px) {
+  #units #content .person-1 div {
+    padding-right: 600px;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .person-1 div {
+    padding-right: 500px;
+  }
 }
 #units #content .person-1 .eichin {
   color: #FFF3B8;
@@ -596,7 +607,17 @@ textarea {
   grid-area: info;
   width: 300px;
   text-align: left;
-  padding-right: 500px;
+  padding-right: 790px;
+}
+@media (min-width: 768px) {
+  #units #content .person-2 div {
+    padding-right: 600px;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .person-2 div {
+    padding-right: 500px;
+  }
 }
 #units #content .person-2 .watarun {
   color: #A1D8E2;
@@ -615,7 +636,17 @@ textarea {
   grid-area: info;
   width: 300px;
   text-align: left;
-  padding-right: 500px;
+  padding-right: 790px;
+}
+@media (min-width: 768px) {
+  #units #content .person-3 div {
+    padding-right: 600px;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .person-3 div {
+    padding-right: 500px;
+  }
 }
 #units #content .person-3 .torin {
   color: #F5B2B2;
@@ -634,7 +665,17 @@ textarea {
   grid-area: info;
   width: 300px;
   text-align: left;
-  padding-right: 500px;
+  padding-right: 790px;
+}
+@media (min-width: 768px) {
+  #units #content .person-4 div {
+    padding-right: 600px;
+  }
+}
+@media (min-width: 1024px) {
+  #units #content .person-4 div {
+    padding-right: 500px;
+  }
 }
 #units #content .person-4 .yuzurun {
   color: #3E62AD;
