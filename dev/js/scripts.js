@@ -30,8 +30,8 @@ preregisterBtn.addEventListener("mouseout", function () {
 
 function createAnimation() {
   var tl = gsap.timeline();
-  tl.from("#first-line", { duration: 0.25, y: -100 })
-    .from("#second-line", { duration: 0.25, y: -100 })
+  tl.from("#first-line", { duration: 0.25, y: -100, alpha: 0 })
+    .from("#second-line", { duration: 0.25, y: -100, alpha: 0, delay: .25 })
     .from("#create-btn", { duration: 0.25, y: 100, alpha: 0, scale: 2 }, "-=.5")
     .from("#create-btn i", { duration: 1, rotation: 20, delay: 0, repeat: -1, yoyo: true }, "-=.5");
   return tl;
