@@ -16,8 +16,7 @@ createButtonTL
   .to( "#overlay", { '--color': 'lime'})
   .to( "#overlay", { '--color': 'yellow'})
   .to( "#overlay", { '--color': 'orange'})
-  .to( "#overlay", { '--color': 'red'})
-;
+  .to( "#overlay", { '--color': 'red'});
 
 var preregisterBtn = document.querySelector("#create-btn");
 
