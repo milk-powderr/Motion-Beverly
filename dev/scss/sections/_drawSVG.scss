@@ -7,6 +7,11 @@ body{
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 
+    #pattern{
+        padding-top: 300px;
+
+    }
+
     .drawSVG{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -28,6 +33,7 @@ body{
                 width: 100%;
             }
         }
+
     }
 
     .grow-right{
