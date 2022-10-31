@@ -368,6 +368,10 @@ textarea {
 /* =============
     Footer
 ============= */
+body {
+  background-color: #000000;
+}
+
 #drawSVG-container {
   min-height: 100vh;
   display: grid;
@@ -382,6 +386,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 }
 #drawSVG-container .drawSVG .svg {
   height: 100%;

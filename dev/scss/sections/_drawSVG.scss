@@ -1,3 +1,7 @@
+body{
+    background-color: #000000;
+}
+
 #drawSVG-container{
     min-height: 100vh;
     display: grid;
@@ -13,6 +17,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            color: #ffffff;
         }
 
         .svg{
