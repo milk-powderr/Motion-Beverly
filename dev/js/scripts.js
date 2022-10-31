@@ -5,12 +5,23 @@ import { GSDevTools } from "gsap/GSDevTools";
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 
-function simplemotion(){
+function simplemotionin(){
     var tl =  gsap.timeline()
-    .to("#Raw",{x:130, scale:0.9, alpha:0})
-    .to("#Raw_2",{x:130, scale:0.9, alpha:00})
-    .to("#Ellipse",{x:130, scale:0.9}, 0)
-    .to("#Baked",{x:130, scale:0.9}, 0)
+    .to("#Raw",{x:130, scale:0.9, ease: "power4.in"})
+    .to("#Raw_2",{x:130, scale:0.9, alpha:0, ease: "power4.in"}, 0)
+    .to("#Ellipse",{x:130, scale:0.9, ease: "power4.in"}, 0)
+    .to("#Baked",{x:130, scale:0.9, ease: "power4.in"}, 0)
+    ;
+
+    return tl;
+}
+
+function simplemotionout(){
+    var tl =  gsap.timeline()
+    .to("#Raw",{x:230, scale:1, alpha:0, ease: "power4.out"})
+    .to("#Ellipse",{x:230, scale:1, alpha:0, ease: "power4.out"}, 0)
+    .to("#Baked",{x:230, scale:1, ease: "power4.out"}, 0)
+    .to("#Rectangle1",{alpha: 0}, 0)
     ;
 
     return tl;
@@ -31,6 +42,7 @@ function UImotion(){
 GSDevTools.create();
 
 var mainTL = gsap.timeline();
-mainTL.add(simplemotion())
+mainTL.add(simplemotionin())
+.add(simplemotionout())
 .add(patternmotion())
 .add(UImotion());
