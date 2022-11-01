@@ -87,12 +87,18 @@ function Layer1motionspread(){
 
 function wordmotionspread(){
 
-    gsap.set("#Menu", {y:"-=190"})
-    gsap.set("#Orders", {y:"-=70"})
+    gsap.set("#Menu", {y:"-=190", alpha: 0})
+    gsap.set("#Orders", {y:"-=70", alpha: 0})
+    gsap.set("#Rewards", {y:"+=40", alpha: 0})
+    gsap.set("#Profile", {y:"+=170", alpha: 0})
+    gsap.set("#FAQ", {y:"+=300", alpha: 0})
 
     var tl =  gsap.timeline()
-    .to("#Menu",{ease: "back.inOut(2)", duration: 0.5, x:"-=340"})
-    .to("#Orders",{ease: "back.inOut(2)", duration: 0.5, x:"-=340"})
+    .to("#Menu",{ease: "back.inOut(2)", duration: 0.5, x:"-=340", alpha: 1}, 0)
+    .to("#Orders",{ease: "back.inOut(2)", duration: 0.5, x:"-=340", alpha: 1}, 0)
+    .to("#Rewards",{ease: "back.inOut(2)", duration: 0.5, x:"-=340", alpha: 1}, 0)
+    .to("#Profile",{ease: "back.inOut(2)", duration: 0.5, x:"-=340", alpha: 1}, 0)
+    .to("#FAQ",{ease: "back.inOut(2)", duration: 0.5, x:"-=340", alpha: 1}, 0)
     ;
     return tl;
 }
