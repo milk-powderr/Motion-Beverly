@@ -53,8 +53,32 @@ function patternmotionout(){
     return tl;
 }
 
-function UImotion(){
+function Layer1motion(){
     var tl =  gsap.timeline()
+    .from(".firstlayer",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"})
+
+    .from("#Jam",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100", delay: 0.8})
+    .from("#Jamside",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100", delay: 0}, 0)
+    ;
+
+    return tl;
+}
+
+
+function Icing1motion(){
+    var tl =  gsap.timeline()
+    .from("#Icing1",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"})
+    .from("#Icing1side",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"}, 0)
+    ;
+
+    return tl;
+}
+
+function Layer2motion(){
+    var tl =  gsap.timeline()
+    .from("#Layer2",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"})
+    .from("#Layer2side",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"}, 0)
+    ;
 
     return tl;
 }
@@ -66,4 +90,8 @@ mainTL.add(simplemotionin())
 .add(simplemotionout())
 .add(patternmotionin())
 .add(patternmotionout())
-.add(UImotion());
+.add(Layer1motion())
+
+.add(Icing1motion())
+.add(Layer2motion())
+;
