@@ -68,17 +68,18 @@ function Layer1motionin(){
     return tl;
 }
 
-function Layer1motionout(){
+function Layer1motionspread(){
     var tl =  gsap.timeline()
-    .to(".firstlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"+=200"})
-    .to(".secondlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"+=200"})
-    .to(".thirdlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"+=200"})
-    .to(".fourthlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"+=200"})
-    .to(".fifthlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"+=200"})
-    .to("#Leftberry",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"+=200"})
-    .to("#Centerbery",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"+=200", stagger: 0.25},"-=0.5")
-    .to("#Rightberry",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"+=200", stagger: 0.25},"-=0.5")
-    .to("#Leaf",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"+=200", stagger: 0.25},"-=0.5")
+    .to(".firstlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=250"}, 0)
+    .to(".secondlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=250"}, 0)
+    .to(".thirdlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=210"}, 0)
+    .to(".fourthlayer",{ ease: "back.inOut(2)", duration: 0.5, y:"+=20"}, 0)
+    .to(".fifthlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=250"}, 0)
+
+    .to("#Leftberry",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"}, 0)
+    .to("#Centerbery",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"}, 0)
+    .to("#Rightberry",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"}, 0)
+    .to("#Leaf",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"}, 0)
     ;
     return tl;
 }
@@ -91,5 +92,5 @@ mainTL.add(simplemotionin())
 .add(patternmotionin())
 .add(patternmotionout())
 .add(Layer1motionin())
-.add(Layer1motionout())
+.add(Layer1motionspread())
 ;
