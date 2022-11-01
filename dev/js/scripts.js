@@ -64,6 +64,11 @@ function Layer1motionin(){
     .from("#Centerbery",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
     .from("#Rightberry",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
     .from("#Leaf",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
+    .from("#Menu",{opacity: 0}, 0)
+    .from("#Orders",{opacity: 0}, 0)
+    .from("#Rewards",{opacity: 0}, 0)
+    .from("#Profile",{opacity: 0}, 0)
+    .from("#FAQ",{opacity: 0}, 0)
     ;
     return tl;
 }
@@ -75,6 +80,8 @@ function Layer1motionspread(){
     .to(".thirdlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=40"}, 0)
     .to(".fourthlayer",{ ease: "back.inOut(2)", duration: 0.5, y:"-=70"}, 0)
     .to(".fifthlayer",{ease: "back.inOut(2)", duration: 0.5, y:"-=190"}, 0)
+
+    .to("#Menu",{ease: "back.inOut(2)", duration: 0.5, y:"-=190", opacity: 100})
 
     .to("#Leftberry",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"}, 0)
     .to("#Centerbery",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"}, 0)
