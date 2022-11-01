@@ -55,33 +55,18 @@ function patternmotionout(){
 
 function Layer1motion(){
     var tl =  gsap.timeline()
-    .from(".firstlayer",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"})
-
-    .from("#Jam",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100", delay: 0.8})
-    .from("#Jamside",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100", delay: 0}, 0)
+    .from(".firstlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
+    .from(".secondlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
+    .from(".thirdlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
+    .from(".fourthlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
+    .from(".fifthlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
+    .from("#Leftberry",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
+    .from("#Centerbery",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25})   
     ;
 
     return tl;
 }
 
-
-function Icing1motion(){
-    var tl =  gsap.timeline()
-    .from("#Icing1",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"})
-    .from("#Icing1side",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"}, 0)
-    ;
-
-    return tl;
-}
-
-function Layer2motion(){
-    var tl =  gsap.timeline()
-    .from("#Layer2",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"})
-    .from("#Layer2side",{alpha: 0, ease: "back.inOut(2)", duration: 1, y:"-=100"}, 0)
-    ;
-
-    return tl;
-}
 
 GSDevTools.create();
 
@@ -92,6 +77,4 @@ mainTL.add(simplemotionin())
 .add(patternmotionout())
 .add(Layer1motion())
 
-.add(Icing1motion())
-.add(Layer2motion())
 ;
