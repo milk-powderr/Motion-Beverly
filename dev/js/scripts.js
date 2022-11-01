@@ -70,11 +70,11 @@ function Layer1motionin(){
 
 function Layer1motionspread(){
     var tl =  gsap.timeline()
-    .to(".firstlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=250"}, 0)
-    .to(".secondlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=250"}, 0)
-    .to(".thirdlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=210"}, 0)
-    .to(".fourthlayer",{ ease: "back.inOut(2)", duration: 0.5, y:"+=20"}, 0)
-    .to(".fifthlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=250"}, 0)
+    .to(".firstlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=300"}, 0)
+    .to(".secondlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=170"}, 0)
+    .to(".thirdlayer",{ease: "back.inOut(2)", duration: 0.5, y:"+=40"}, 0)
+    .to(".fourthlayer",{ ease: "back.inOut(2)", duration: 0.5, y:"-=70"}, 0)
+    .to(".fifthlayer",{ease: "back.inOut(2)", duration: 0.5, y:"-=190"}, 0)
 
     .to("#Leftberry",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"}, 0)
     .to("#Centerbery",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"}, 0)
