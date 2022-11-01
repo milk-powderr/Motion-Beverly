@@ -53,20 +53,35 @@ function patternmotionout(){
     return tl;
 }
 
-function Layer1motion(){
+function Layer1motionin(){
     var tl =  gsap.timeline()
-    .from(".firstlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
-    .from(".secondlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
-    .from(".thirdlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
-    .from(".fourthlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
-    .from(".fifthlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
+    .from(".firstlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=100"})
+    .from(".secondlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=100"})
+    .from(".thirdlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=100"})
+    .from(".fourthlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=100"})
+    .from(".fifthlayer",{alpha: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=100"})
     .from("#Leftberry",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100"})
-    .from("#Centerbery",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25})   
+    .from("#Centerbery",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
+    .from("#Rightberry",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
+    .from("#Leaf",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
     ;
-
     return tl;
 }
 
+function Layer1motionout(){
+    var tl =  gsap.timeline()
+    .to(".firstlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=200"})
+    .to(".secondlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=200"})
+    .to(".thirdlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=200"})
+    .to(".fourthlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=200"})
+    .to(".fifthlayer",{opacity: 0, ease: "back.inOut(2)", duration: 0.5, y:"-=200"})
+    .to("#Leftberry",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200"})
+    .to("#Centerbery",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200", stagger: 0.25},"-=0.5")
+    .to("#Rightberry",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200", stagger: 0.25},"-=0.5")
+    .to("#Leaf",{opacity: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=200", stagger: 0.25},"-=0.5")
+    ;
+    return tl;
+}
 
 GSDevTools.create();
 
@@ -75,6 +90,6 @@ mainTL.add(simplemotionin())
 .add(simplemotionout())
 .add(patternmotionin())
 .add(patternmotionout())
-.add(Layer1motion())
-
+.add(Layer1motionin())
+.add(Layer1motionout())
 ;
