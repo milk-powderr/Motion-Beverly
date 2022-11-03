@@ -65,6 +65,7 @@ function Layer1motionin(){
     .from("#Centerbery",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
     .from("#Rightberry",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
     .from("#Leaf",{alpha: 0, ease: "back.inOut(2)", duration: 0.7, y:"-=100", stagger: 0.25},"-=0.5")
+
     ;
     return tl;
 }
