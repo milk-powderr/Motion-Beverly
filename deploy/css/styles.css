@@ -389,7 +389,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000000;
+  color: #ffffff;
 }
 #drawSVG-container .drawSVG .svg {
   height: 100%;

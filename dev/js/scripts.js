@@ -5,12 +5,10 @@ import { GSDevTools } from "gsap/GSDevTools";
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 
-function simplemotionin(){
+function clockmotionspin(){
     var tl =  gsap.timeline()
-    .to("#Raw",{x:130, scale:0.9, ease: "back.inOut(1)", duration: 1, transformOrigin: "center"})
-    .to("#Raw_2",{x:130, scale:0.9, alpha:0, ease: "back.inOut(1)", duration: 1, transformOrigin: "center"}, 0)
-    .to("#Ellipse",{x:130, scale:0.9, ease: "back.inOut(1)", duration: 1, transformOrigin: "center"}, 0)
-    .to("#Baked",{x:130, scale:0.9, ease: "back.inOut(1)", duration:1 , transformOrigin: "center"}, 0)
+    .to("#Longhand",{ ease: "back.inOut(1)", duration: 2, transformOrigin: "bottom", rotate: 400})
+    .to("#Shorthand",{ ease: "back.inOut(1)", duration: 1, transformOrigin: "bottom", rotate: 58})
     ;
 
     return tl;
@@ -19,5 +17,5 @@ function simplemotionin(){
 GSDevTools.create();
 
 var mainTL = gsap.timeline();
-mainTL.add(simplemotionin())
+mainTL.add(clockmotionspin())
 ;
