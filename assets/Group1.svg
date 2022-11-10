@@ -1,7 +1,6 @@
 <svg width="1352" height="815" viewBox="0 0 1352 815" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Frame 1">
 <rect width="1352" height="815" fill="white"/>
-<g id="Group 1">
 <rect id="R1" x="749.315" y="277.001" width="6.5004" height="22.5014" rx="3.2502" transform="rotate(31.6358 749.315 277.001)" fill="#6AD8BB"/>
 <rect id="R2" x="801.292" y="326.504" width="6.5004" height="22.5014" rx="3.2502" transform="rotate(52.1862 801.292 326.504)" fill="#6AD8BB"/>
 <rect id="R3" x="825.518" y="403.509" width="6.5004" height="22.5014" rx="3.2502" transform="rotate(89.5929 825.518 403.509)" fill="#6AD8BB"/>
@@ -13,9 +12,8 @@
 <rect id="R9" x="527.065" y="412.232" width="6.5004" height="22.5014" rx="3.2502" transform="rotate(-90.5689 527.065 412.232)" fill="#6AD8BB"/>
 <rect id="R10" x="546.001" y="335.949" width="6.5004" height="22.5014" rx="3.2502" transform="rotate(-56.8926 546.001 335.949)" fill="#6AD8BB"/>
 <rect id="R11" x="596.004" y="281.991" width="6.5004" height="22.5014" rx="3.2502" transform="rotate(-32.4711 596.004 281.991)" fill="#6AD8BB"/>
-<rect id="R12" x="679.797" y="281.5" width="6.5004" height="22.5014" rx="3.2502" transform="rotate(179.267 679.797 281.5)" fill="#6AD8BB"/>
-<rect id="Shorthand" x="702.021" y="357.996" width="6.5004" height="59.3407" rx="3.2502" transform="rotate(30.3821 702.021 357.996)" fill="#6AD8BB"/>
-<rect id="Longhand" x="734.545" y="329.417" width="6.5004" height="100.721" rx="3.2502" transform="rotate(38.3805 734.545 329.417)" fill="#6AD8BB"/>
-</g>
+<rect id="R12" x="679.649" y="281.543" width="6.5004" height="22.5014" rx="3.2502" transform="rotate(-179.98 679.649 281.543)" fill="#6AD8BB"/>
+<rect id="Longhand" x="680.981" y="410.19" width="6.5004" height="101.191" rx="3.2502" transform="rotate(179.728 680.981 410.19)" fill="#6AD8BB"/>
+<rect id="Shorthand" x="680.981" y="410.19" width="6.5004" height="101.191" rx="3.2502" transform="rotate(179.728 680.981 410.19)" fill="#6AD8BB"/>
 </g>
 </svg>
