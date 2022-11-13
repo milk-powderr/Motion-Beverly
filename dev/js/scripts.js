@@ -6,7 +6,6 @@ import { MotionPathHelper } from "gsap/MotionPathHelper";
 
 gsap.registerPlugin(DrawSVGPlugin, MotionPathPlugin, MotionPathHelper, GSDevTools);
 
-
 function clockmotionspin1(){
     var tl =  gsap.timeline()
     .to("#Longhand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 539.5}, 0)
@@ -24,8 +23,8 @@ function clockmotionspin2(){
 }
 
 function lastmove(){
-    var tl = gsap.timeline();
-    tl.to("#R12",{duration:3, motionPath:{path:"#12m", align:"#12m", autoRotate:true}, transformOrigin:"center", rotate:45, ease: "expo.in"});
+    var tl = gsap.timeline()
+    .to("#R12",{duration:3, motionPath:{path:"#12m", align:"#12m", autoRotate:true}, transformOrigin:"center", rotate:45, ease: "expo.in"});
     return tl;
 }
 
@@ -33,6 +32,10 @@ GSDevTools.create();
 
 var mainTL = gsap.timeline();
 mainTL.add(clockmotionspin1())
-mainTL.add(clockmotionspin2())
-mainTL.add(lastmove())
+    .add(clockmotionspin2())
+    .add(lastmove())
 ;
+
+GSDevTools.create();
+
+MotionPathHelper.create("#12m");
