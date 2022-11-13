@@ -4,11 +4,11 @@ import { GSDevTools } from "gsap/GSDevTools";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { MotionPathHelper } from "gsap/MotionPathHelper";
 
-gsap.registerPlugin(DrawSVGPlugin, MotionPathPlugin, MotionPathHelper, GSDevTools);
+gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MotionPathPlugin, MotionPathHelper);
 
 function clockmotionspin1(){
     var tl =  gsap.timeline()
-    .to("#Longhand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 539.5}, 0)
+    tl.to("#Longhand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 539.5}, 0)
     .to("#Shorthand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 209}, 0)
     ;
     return tl;
@@ -16,7 +16,7 @@ function clockmotionspin1(){
 
 function clockmotionspin2(){
     var tl =  gsap.timeline()
-    .to("#Longhand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 899}, 0)
+    tl.to("#Longhand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 899}, 0)
     .to("#Shorthand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 238}, 0)
     ;
     return tl;
@@ -24,11 +24,9 @@ function clockmotionspin2(){
 
 function lastmove(){
     var tl = gsap.timeline()
-    .to("#R12",{duration:3, motionPath:{path:"#12m", align:"#12m", autoRotate:true}, transformOrigin:"center", rotate:45, ease: "expo.in"});
+    tl.to("#R12",{duration:3, motionPath:{path:"#12m", align:"#12m", autoRotate:true}, transformOrigin:"center", rotate:45, ease: "expo.in"});
     return tl;
 }
-
-GSDevTools.create();
 
 var mainTL = gsap.timeline();
 mainTL.add(clockmotionspin1())
