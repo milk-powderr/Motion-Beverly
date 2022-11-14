@@ -24,7 +24,7 @@ function clockmotionspin2(){
 
 function lastmove(){
     var tl = gsap.timeline()
-    tl.to("#R12",{duration:3, motionPath:{path:"#12m", align:"#12m", autoRotate:true}, transformOrigin:"center", rotate:45, ease: "expo.in"});
+    tl.to("#R12",{duration:3, motionPath:{path:"#m12", align:"#m12", autoRotate:true}, transformOrigin:"center", rotate:45, ease: "expo.in"});
     return tl;
 }
 
@@ -36,4 +36,4 @@ mainTL.add(clockmotionspin1())
 
 GSDevTools.create();
 
-MotionPathHelper.create("#12m");
+MotionPathHelper.create("#R12");
