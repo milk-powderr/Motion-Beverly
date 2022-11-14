@@ -15,24 +15,14 @@ function Bmotion(){
     tl.from("#B",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "center", x:"-=200", alpha: 0}, 0)
     tl.from("#Flower",{ ease: "Power2.easeOut", duration: 1.5, transformOrigin: "center", rotate: 100}, 0.5)
     tl.to("#Flower",{ ease: "elastic.out(1, 0.3)", duration: 1.5, transformOrigin: "center", scale: 1, rotate: 100}, 0.5)
-    tl.to("#Leaf",{ ease: "elastic.out(1, 0.8)", duration: 1, transformOrigin: "center", scale: 1})
-    tl.to("#Leaf",{transformOrigin: "center", yoyo: true, repeat: 1, rotation: 20, duration: 0.3})
+    tl.to("#Leaf",{ ease: "elastic.out(1, 0.8)", duration: 1, transformOrigin: "center", scale: 1}, 0.8)
+    tl.to("#Leaf",{ ease: "Power4.easeInOut", transformOrigin: "center", yoyo: true, repeat: 1, rotation: 20, duration: 0.3}, 0.8)
     ;
     return tl;
 }
-
-function Leafmotion(){
-
-    var tl =  gsap.timeline()
-
-    ;
-    return tl;
-}
-
 
 GSDevTools.create();
 
 var mainTL = gsap.timeline();
 mainTL.add(Bmotion())
-.add(Leafmotion())
 ;
