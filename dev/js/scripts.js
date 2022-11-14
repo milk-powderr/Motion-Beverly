@@ -8,16 +8,15 @@ gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MotionPathPlugin, MotionPathHelpe
 
 function Bmotion(){
 
-    
     var tl =  gsap.timeline()
-    tl.to("#B",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "center"}, 0)
-
+    tl.from("#B",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "center", x:"-=200", alpha: 0}, 0)
+    tl.from("#Flower",{ ease: "elastic.out(1, 0.3)", duration: 1, transformOrigin: "center", y:"-=100", alpha: 0}, 0.5)
     ;
     return tl;
 }
 
+
 GSDevTools.create();
 
 var mainTL = gsap.timeline();
-mainTL.add(Bmotion())
 ;
