@@ -23,9 +23,14 @@ function clockmotionspin2(){
 }
 
 function lastmove(){
+
+    //gsap.set("#R5", {transformOrigin: "center"})
+
     var tl = gsap.timeline()
-    tl.to("#R5",{duration:1, motionPath:{path:"#m5", align:"#m5"}, transformOrigin:"center", ease: "expo.in"}, 0)
-    .to("#R6",{duration:1, motionPath:{path:"#m6", align:"#m6"}, transformOrigin:"center", ease: "expo.in"}, 0)
+    tl.to("#R5",{ ease: "Power3.easeOut", duration:2, motionPath:{path:"#m5", align:"#m5"}, transformOrigin:"center"}, 0)
+    //.to("#R6",{duration:1, motionPath:{path:"#m6", align:"#m6"}, transformOrigin:"center", ease: "expo.in"}, 0)
+    //.to("#R7",{duration:1, motionPath:{path:"#m7", align:"#m7"}, transformOrigin:"center", ease: "expo.in"}, 0)
+    //.to("#R8",{duration:1, motionPath:{path:"#m8", align:"#m8"}, transformOrigin:"center", ease: "expo.in"}, 0)
     ;
     return tl;
 }
@@ -39,5 +44,5 @@ mainTL.add(clockmotionspin1())
 GSDevTools.create();
 
 MotionPathHelper.create("#R5")
-.create("#R6")
+//MotionPathHelper.create("#R6")
 ;
