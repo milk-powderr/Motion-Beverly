@@ -16,7 +16,17 @@ function Bmotion(){
     tl.from("#Flower",{ ease: "Power2.easeOut", duration: 1.5, transformOrigin: "center", rotate: 100}, 0.5)
     tl.to("#Flower",{ ease: "elastic.out(1, 0.3)", duration: 1.5, transformOrigin: "center", scale: 1, rotate: 100}, 0.5)
     tl.to("#Leaf",{ ease: "elastic.out(1, 0.8)", duration: 1, transformOrigin: "bottom", scale: 1}, 0.7)
-    tl.to("#Leaf",{ ease: "Power4.easeInOut", transformOrigin: "bottom", yoyo: true, repeat: 1, rotation: 20, duration: 0.3}, 0.9)
+    tl.to("#Leaf",{ ease: "Power4.easeInOut", transformOrigin: "center", yoyo: true, repeat: 1, rotation: 20, duration: 0.2}, 0.9)
+    ;
+    return tl;
+}
+
+function wordmotion(){
+
+    gsap.set(".word", {transformOrigin: "bottom", rotate: 40, x: -200, alpha: 0})
+
+    var tl =  gsap.timeline()
+    tl.to(".word",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "bottom", alpha: 1, rotate: 0, x:"+=10"}, 0)
     ;
     return tl;
 }
@@ -25,4 +35,5 @@ GSDevTools.create();
 
 var mainTL = gsap.timeline();
 mainTL.add(Bmotion())
+.add(wordmotion())
 ;
