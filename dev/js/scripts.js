@@ -32,7 +32,8 @@ function lastmove(){
     .to("#R9",{ rotate: 0.4, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m9", align:"#m9"}, transformOrigin:"bottom", height: 52}, 0)
     .to("#R10",{ rotate: 90, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m10", align:"#m10"}, transformOrigin:"center"}, 0)
     .to("#R11",{ rotate: 181, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m11", align:"#m11"}, transformOrigin:"center"}, 0)
-    .to(".hands",{ rotate: 181, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#mhands", align:"#mhands"}, transformOrigin:"top"}, 0)
+    .to("#Longhand",{ rotate: 1000, ease: "Power3.easeOut", duration: 1, motionPath:{path:"#mhands", align:"#mhands"}, transformOrigin:"top", height: 30}, 0)
+    .to("#Shorthand",{ rotate: 438, ease: "Power3.easeOut", duration: 1, motionPath:{path:"#mhands", align:"#mhands"}, transformOrigin:"top"}, 0)
     ;
     return tl;
 }
@@ -56,5 +57,6 @@ MotionPathHelper.create("#R8")
 MotionPathHelper.create("#R9")
 MotionPathHelper.create("#R10")
 MotionPathHelper.create("#R11")
-MotionPathHelper.create(".hands")
+MotionPathHelper.create("Longhand")
+MotionPathHelper.create("Shorthand")
 ;
