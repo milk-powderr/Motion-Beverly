@@ -25,7 +25,7 @@ function clockmotionspin2(){
 function lastmove(){
 
     var tl = gsap.timeline()
-    tl.to("#R4",{ rotate: 240, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m4", align:"#m4"}, transformOrigin:"center"}, 0)
+    tl.to("#R4",{ rotate: 272.5, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m4", align:"#m4"}, transformOrigin:"center", height: 30}, 0)
     .to("#R5",{ rotate: -90, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m5", align:"#m5"}, transformOrigin:"center"}, 0)
     .to("#R6",{ rotate: 540, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m6", align:"#m6"}, transformOrigin:"center", height: 40}, 0)
     .to("#R7",{ rotate: -540, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m7", align:"#m7"}, transformOrigin:"center", height: 55}, 0)
