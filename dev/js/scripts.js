@@ -22,7 +22,7 @@ function lastmove(){
     var tl = gsap.timeline()
     tl.to("#R12",{ rotate: 90, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m12", align:"#m12"}, transformOrigin:"bottom", height: 30}, 0)
     .to("#R1",{ rotate: 0.4, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m1", align:"#m1"}, transformOrigin:"bottom", height: 30}, 0)
-    .to("#R2",{ rotate: -100, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m2", align:"#m2"}, transformOrigin:"center", height: 30}, 0)
+    .to("#R2",{ rotate: -0.4, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m2", align:"#m2"}, transformOrigin:"center", height: 30}, 0)
     .to("#R3",{ ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m3", align:"#m3"}, transformOrigin:"bottom", height: 30}, 0)
     .to("#R4",{ rotate: 271.5, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m4", align:"#m4"}, transformOrigin:"center", height: 30}, 0)
     .to("#R5",{ rotate: -90, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m5", align:"#m5"}, transformOrigin:"center"}, 0)
