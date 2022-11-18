@@ -15,12 +15,13 @@ function oreozoomout(){
 
     tl.to(".demo",{ attr:{viewBox:"0 0 1553.19 952"}, transformOrigin: "center", duration: 1.5, delay: 1.2, ease: "power3.out"}, 0)
     .to("#Row3",{ alpha: 1, duration: 0.1}, 0)
-    .to("#Row1",{ x:"-=190", duration: 4, delay: 1.5}, 0)
-    .to("#Row2",{ x:"+=190", duration: 4, delay: 1.5}, 0)
-    .to("#Row3",{ x:"-=190", duration: 4, delay: 1.5}, 0)
-    .to("#Row4",{ x:"+=190", duration: 4, delay: 1.5}, 0)
-    .to("#Row5",{ x:"-=190", duration: 4, delay: 1.5}, 0)
-    .to(".bottom1",{ x:"+=250", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to("#Row1",{ x:"-=190", duration: 7, delay: 1.5}, 0)
+    .to("#Row2",{ x:"+=190", duration: 7, delay: 1.5}, 0)
+    .to("#Row3",{ x:"-=190", duration: 7, delay: 1.5}, 0)
+    .to("#Row4",{ x:"+=190", duration: 7, delay: 1.5}, 0)
+    .to("#Row5",{ x:"-=190", duration: 7, delay: 1.5}, 0)
+    .to(".bottom1",{ x:"+=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to(".bottom2",{ x:"-=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
 
     ;
     return tl;
