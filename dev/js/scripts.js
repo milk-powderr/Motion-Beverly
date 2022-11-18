@@ -13,6 +13,7 @@ function oreozoomout(){
     gsap.set(".demo", { attr:{viewBox:"748 453 475.72 246"}, transformOrigin: "center"})
     gsap.set("#Row3", { alpha: 0})
 
+
     tl.to(".demo",{ attr:{viewBox:"0 0 1553.19 900"}, transformOrigin: "center", duration: 1.5, delay: 1.2, ease: "power3.out"}, 0)
     .to("#Row3",{ alpha: 1, duration: 0.1}, 0)
     .to("#Row1",{ x:"-=190", duration: 7, delay: 1.5}, 0)
