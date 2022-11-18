@@ -10,9 +10,9 @@ function oreozoomout(){
 
     var tl =  gsap.timeline()
 
-    //gsap.set("#Cookie", {scale: 2.1, transformOrigin: "center"})
+    gsap.set(".demo", { attr:{viewBox:"779 453 475.72 276"}, transformOrigin: "center"})
 
-    tl.to(".demo",{ attr:{viewBox:"663 334 401.77 402"}}, 0)
+    tl.to(".demo",{ attr:{viewBox:"0 0 1728 1117"}, transformOrigin: "center", delay: 2}, 0)
     ;
     return tl;
 }
