@@ -10,14 +10,8 @@ function clockmotionspin1(){
     var tl =  gsap.timeline()
     tl.to("#Longhand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 539.5}, 0)
     .to("#Shorthand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 209}, 0)
-    ;
-    return tl;
-}
-
-function clockmotionspin2(){
-    var tl =  gsap.timeline()
-    tl.to("#Longhand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 899}, 0)
-    .to("#Shorthand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 238}, 0)
+    .to("#Longhand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 899}, 0.7)
+    .to("#Shorthand",{ ease: "Power2.easeOut", duration: 1, transformOrigin: "top", rotate: 238}, 0.7)
     ;
     return tl;
 }
@@ -40,7 +34,6 @@ function lastmove(){
 
 var mainTL = gsap.timeline();
 mainTL.add(clockmotionspin1())
-    .add(clockmotionspin2())
     .add(lastmove())
 ;
 
