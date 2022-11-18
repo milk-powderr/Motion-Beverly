@@ -10,13 +10,12 @@ function oreozoomout(){
 
     var tl =  gsap.timeline()
 
-    gsap.set("#Cookie", {scale: 2.1, transformOrigin: "center"})
+    //gsap.set("#Cookie", {scale: 2.1, transformOrigin: "center"})
 
-    tl.to("#Cookie",{ ease: "Power2.easeOut", duration: 2, transformOrigin: "center"}, 0)
+    tl.to(".demo",{ attr:{viewBox:"663 334 401.77 402"}}, 0)
     ;
     return tl;
 }
-
 
 var mainTL = gsap.timeline();
 mainTL.add(oreozoomout())
@@ -27,3 +26,5 @@ GSDevTools.create();
 //MotionPathHelper.create("#R12")
 
 //;
+
+//viewBox="0 0 1728 1117"
