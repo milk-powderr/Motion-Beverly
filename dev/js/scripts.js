@@ -22,7 +22,9 @@ function oreozoomout(){
     .to("#Row5",{ x:"-=190", duration: 7, delay: 1.5}, 0)
     .to(".bottom1",{ x:"+=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
     .to(".bottom2",{ x:"-=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
-
+    .to(".bottom3",{ x:"+=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to(".bottom4",{ x:"-=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to(".bottom5",{ x:"+=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
     ;
     return tl;
 }
