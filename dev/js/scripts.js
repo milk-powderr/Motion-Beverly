@@ -13,7 +13,8 @@ function oreozoomout(){
     gsap.set(".demo", { attr:{viewBox:"748 453 475.72 246"}, transformOrigin: "center"})
     gsap.set("#Row3", { alpha: 0})
     gsap.set("#words", { x:"+=1000"})
-
+    gsap.set("#Cookieroll", { y:"-=970", transformOrigin:"center"})
+    ;
 
     tl.to(".demo",{ attr:{viewBox:"0 0 1553.19 900"}, transformOrigin: "center", duration: 1.5, delay: 1.2, ease: "power3.out"}, 0)
     .to("#Row3",{ alpha: 1, duration: 0.1}, 0)
@@ -31,7 +32,7 @@ function oreozoomout(){
     .to(".up2",{ y:"+=200", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
     .to("#words",{ x:"-=1095", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
     .to("#words",{ x:"-=1150", duration: 0.8, delay: 5.4, ease: "power3.out"}, 0)
-    .to("#Cookieroll",{ rotate: 100, ease: "Power3.easeOut", duration: 0.8, motionPath:{path:"#roll", align:"#roll"}, transformOrigin:"center", delay: 4.3, scale: 2}, 0)
+    .to("#Cookieroll",{ rotate: -360.5, ease: "Power3.easeOut", duration: 0.8, motionPath:{path:"#roll", align:"#roll"}, transformOrigin:"center", delay: 5.4, scale: 2, y:"+=970"}, 0)
     ;
     return tl;
 }
