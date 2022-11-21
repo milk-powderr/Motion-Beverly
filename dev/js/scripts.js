@@ -14,7 +14,7 @@ function oreozoomout(){
     gsap.set("#Row3", { alpha: 0})
     gsap.set("#words", { x:"+=1000"})
     gsap.set("#Cookieroll", { transformOrigin:"center"})
-    gsap.set("#wonderfilled", { transformOrigin:"center", x:"-=120", alpha: 0})
+    gsap.set("#wonderfilled", { transformOrigin:"center", x:"-=106", alpha: 0})
     ;
 
     tl.to(".demo",{ attr:{viewBox:"0 0 1553.19 900"}, transformOrigin: "center", duration: 1.5, delay: 1.2, ease: "power3.out"}, 0)

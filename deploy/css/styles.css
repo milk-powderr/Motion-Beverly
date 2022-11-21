@@ -398,5 +398,5 @@ body {
   width: 100%;
 }
 #drawSVG-container #roll {
-  opacity: 0%;
+  visibility: hidden;
 }
