@@ -107,6 +107,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/oreo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/oreo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/pattern-animation.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -126,6 +136,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/wonderfilled.png" : {
+      "ft" : 32768,
+      "iS" : 30995,
+      "oA" : 0,
+      "oAP" : "\/assets\/wonderfilled.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -1053,7 +1076,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
