@@ -30,7 +30,7 @@ function oreozoomout(){
     .to(".up1",{ y:"-=170", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
     .to(".up2",{ y:"+=200", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
     .to("#words",{ x:"-=1095", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
-    .to("#words",{ x:"-=1595", duration: 0.8, delay: 4.5, ease: "power3.out"}, 0)
+    .to("#words",{ x:"-=1150", duration: 0.8, delay: 5.4, ease: "power3.out"}, 0)
     .to("#Cookieroll",{ rotate: 100, ease: "Power3.easeOut", duration: 0.8, motionPath:{path:"#roll", align:"#roll"}, transformOrigin:"center", delay: 4.3, scale: 2}, 0)
     ;
     return tl;
