@@ -33,11 +33,10 @@ function oreozoomout(){
     .to(".up2",{ y:"+=200", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
     .to("#words",{ x:"-=1095", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
     .to("#words",{ x:"-=1150", duration: 0.8, delay: 5.4, ease: "power3.out"}, 0)
-    .to("#Cookieroll",{ rotate: -360.5, duration: 1, ease: "power3.out", motionPath:{path:"#roll", align:"#roll"}, transformOrigin:"center", delay: 5.4, scale: 2.5}, 0)
+    .to("#Cookieroll",{ rotate: -360.5, duration: 1, ease: "power3.out", motionPath:{path:"#roll", align:"#roll"}, transformOrigin:"center", delay: 5.4, scale: 2.5,onComplete:test()}, 0)
     .to(".up1",{ y:"-=270", duration: 0.7, delay: 5.4, ease: "power3.out"}, 0)
     .to(".up2",{ y:"+=300", duration: 0.7, delay: 5.4, ease: "power3.out"}, 0)
-    .to("#wonderfilled",{ scale: 3, duration: 0.7, delay: 6.1,  ease: "elastic.out(1, 0.3)", alpha: 1}, 0)
-    ;
+    .to("#wonderfilled",{ scale: 3, duration: 0.7, delay: 6.1,  ease: "elastic.out(1, 0.3)", alpha: 1}, 0);
     return tl;
 }
 
@@ -45,7 +44,11 @@ var mainTL = gsap.timeline();
 mainTL.add(oreozoomout())
 ;
 
+
+function test(){
+    console.log("complete");
+}
+
 GSDevTools.create();
 
-MotionPathHelper.create("#Cookieroll")
-;
+// MotionPathHelper.create("#Cookieroll");
