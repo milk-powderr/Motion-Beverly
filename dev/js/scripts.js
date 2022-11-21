@@ -14,6 +14,7 @@ function oreozoomout(){
     gsap.set("#Row3", { alpha: 0})
     gsap.set("#words", { x:"+=1000"})
 
+
     tl.to(".demo",{ attr:{viewBox:"0 0 1553.19 900"}, transformOrigin: "center", duration: 1.5, delay: 1.2, ease: "power3.out"}, 0)
     .to("#Row3",{ alpha: 1, duration: 0.1}, 0)
     .to("#Row1",{ x:"-=190", duration: 7, delay: 1.5}, 0)
@@ -21,14 +22,16 @@ function oreozoomout(){
     .to("#Row3",{ x:"-=190", duration: 7, delay: 1.5}, 0)
     .to("#Row4",{ x:"+=190", duration: 7, delay: 1.5}, 0)
     .to("#Row5",{ x:"-=190", duration: 7, delay: 1.5}, 0)
-    .to(".bottom1",{ x:"+=241", duration: 0.5, delay: 2.3, ease: "power3.out"}, 0)
-    .to(".bottom2",{ x:"-=241", duration: 0.5, delay: 2.3, ease: "power3.out"}, 0)
-    .to(".bottom3",{ x:"+=241", duration: 0.5, delay: 2.3, ease: "power3.out"}, 0)
-    .to(".bottom4",{ x:"-=241", duration: 0.5, delay: 2.3, ease: "power3.out"}, 0)
-    .to(".bottom5",{ x:"+=241", duration: 0.5, delay: 2.3, ease: "power3.out"}, 0)
-    .to(".up1",{ y:"-=170", duration: 0.7, delay: 3.7, ease: "power3.out"}, 0)
-    .to(".up2",{ y:"+=200", duration: 0.7, delay: 3.7, ease: "power3.out"}, 0)
-    .to("#words",{ x:"-=1095", duration: 0.8, delay: 3.9, ease: "power3.out"}, 0)
+    .to(".bottom1",{ x:"+=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to(".bottom2",{ x:"-=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to(".bottom3",{ x:"+=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to(".bottom4",{ x:"-=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to(".bottom5",{ x:"+=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
+    .to(".up1",{ y:"-=170", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
+    .to(".up2",{ y:"+=200", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
+    .to("#words",{ x:"-=1095", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
+    .to("#words",{ x:"-=1595", duration: 0.8, delay: 4.5, ease: "power3.out"}, 0)
+    .to("#Cookieroll",{ rotate: 100, ease: "Power3.easeOut", duration: 0.8, motionPath:{path:"#roll", align:"#roll"}, transformOrigin:"center", delay: 4.3, scale: 2}, 0)
     ;
     return tl;
 }
@@ -39,8 +42,5 @@ mainTL.add(oreozoomout())
 
 GSDevTools.create();
 
-//MotionPathHelper.create("#R12")
-
-//;
-
-//viewBox="0 0 1728 1117"
+MotionPathHelper.create("#Cookieroll")
+;
