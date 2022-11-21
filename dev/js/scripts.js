@@ -12,6 +12,7 @@ function oreozoomout(){
 
     gsap.set(".demo", { attr:{viewBox:"748 453 475.72 246"}, transformOrigin: "center"})
     gsap.set("#Row3", { alpha: 0})
+    gsap.set("#words", { x:"+=1000"})
 
 
     tl.to(".demo",{ attr:{viewBox:"0 0 1553.19 900"}, transformOrigin: "center", duration: 1.5, delay: 1.2, ease: "power3.out"}, 0)
@@ -28,7 +29,6 @@ function oreozoomout(){
     .to(".bottom5",{ x:"+=241", duration: 0.5, delay: 2.5, ease: "power3.out"}, 0)
     .to(".up1",{ y:"-=170", duration: 0.7, delay: 3.8, ease: "power3.out"}, 0)
     .to(".up2",{ y:"+=200", duration: 0.7, delay: 3.8, ease: "power3.out"}, 0)
-
     ;
     return tl;
 }
