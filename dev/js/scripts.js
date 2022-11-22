@@ -6,6 +6,27 @@ import { MotionPathHelper } from "gsap/MotionPathHelper";
 
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools, MotionPathPlugin, MotionPathHelper);
 
+function firstmove(){
+
+    var tl = gsap.timeline()
+    tl.from("#R12",{ rotate: 90, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m12", align:"#m12"}, transformOrigin:"bottom", height: 30}, 0)
+    .from("#R1",{ rotate: 0.4, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m1", align:"#m1"}, transformOrigin:"bottom", height: 40}, 0)
+    .from("#R2",{ rotate: -0.4, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m2", align:"#m2"}, transformOrigin:"center", height: 30}, 0)
+    .from("#R3",{ ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m3", align:"#m3"}, transformOrigin:"bottom", height: 30}, 0)
+    .from("#R4",{ rotate: 271.5, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m4", align:"#m4"}, transformOrigin:"center", height: 30}, 0)
+    .from("#R5",{ rotate: -90, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m5", align:"#m5"}, transformOrigin:"center"}, 0)
+    .from("#R6",{ rotate: 540, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m6", align:"#m6"}, transformOrigin:"center", height: 40}, 0)
+    .from("#R7",{ rotate: -540, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m7", align:"#m7"}, transformOrigin:"center", height: 55}, 0)
+    .from("#R8",{ rotate: -540, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m8", align:"#m8"}, transformOrigin:"center", height: 55}, 0)
+    .from("#R9",{ rotate: 0.4, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m9", align:"#m9"}, transformOrigin:"bottom", height: 52}, 0)
+    .from("#R10",{ rotate: 90, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m10", align:"#m10"}, transformOrigin:"center"}, 0)
+    .from("#R11",{ rotate: 181, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m11", align:"#m11"}, transformOrigin:"center", height: 30}, 0)
+    .from("#Longhand",{ rotate: -1300, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#mhands", align:"#mhands"}, transformOrigin:"top", height: 30}, 0)
+    .from("#Shorthand",{ rotate: -830, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#mhands", align:"#mhands"}, transformOrigin:"top", height: 20}, 0)
+    ;
+    return tl;
+}
+
 function clockmotionspin1(){
 
     var tl =  gsap.timeline()
@@ -39,24 +60,7 @@ function lastmove(){
 }
 
 var mainTL = gsap.timeline();
-mainTL.add(clockmotionspin1())
-    .add(lastmove())
-;
-
-GSDevTools.create();
-
-MotionPathHelper.create("#R12")
-//MotionPathHelper.create("#R1")
-//MotionPathHelper.create("#R2")
-//MotionPathHelper.create("#R3")
-//MotionPathHelper.create("#R4")
-//MotionPathHelper.create("#R5")
-// MotionPathHelper.create("#R6")
-// MotionPathHelper.create("#R7")
-// MotionPathHelper.create("#R8")
-// MotionPathHelper.create("#R9")
-// MotionPathHelper.create("#R10")
-// MotionPathHelper.create("#R11")
-// MotionPathHelper.create("Longhand")
-// MotionPathHelper.create("Shorthand")
+mainTL.add(firstmove())
+.add(clockmotionspin1())
+.add(lastmove())
 ;
