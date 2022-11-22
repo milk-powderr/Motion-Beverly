@@ -31,7 +31,7 @@ function lastmove(){
     .to("#R8",{ rotate: -540, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m8", align:"#m8"}, transformOrigin:"center", height: 55}, 0)
     .to("#R9",{ rotate: 0.4, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m9", align:"#m9"}, transformOrigin:"bottom", height: 52}, 0)
     .to("#R10",{ rotate: 90, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m10", align:"#m10"}, transformOrigin:"center"}, 0)
-    .to("#R11",{ rotate: 181, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m11", align:"#m11"}, transformOrigin:"center"}, 0)
+    .to("#R11",{ rotate: 181, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#m11", align:"#m11"}, transformOrigin:"center", height: 30}, 0)
     .to("#Longhand",{ rotate: 1300, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#mhands", align:"#mhands"}, transformOrigin:"top", height: 30}, 0)
     .to("#Shorthand",{ rotate: 830, ease: "Power3.easeOut", duration: 1.8, motionPath:{path:"#mhands", align:"#mhands"}, transformOrigin:"top", height: 20}, 0)
     ;
@@ -46,10 +46,10 @@ mainTL.add(clockmotionspin1())
 GSDevTools.create();
 
  //MotionPathHelper.create("#R12")
-//MotionPathHelper.create("#R1")
+MotionPathHelper.create("#R1")
 //MotionPathHelper.create("#R2")
 //MotionPathHelper.create("#R3")
-MotionPathHelper.create("#R4")
+//MotionPathHelper.create("#R4")
 //MotionPathHelper.create("#R5")
 // MotionPathHelper.create("#R6")
 // MotionPathHelper.create("#R7")
