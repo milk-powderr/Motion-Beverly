@@ -64,3 +64,5 @@ mainTL.add(firstmove())
 .add(clockmotionspin1())
 .add(lastmove())
 ;
+
+GSDevTools.create();
