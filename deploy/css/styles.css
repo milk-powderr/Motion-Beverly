@@ -397,3 +397,6 @@ body {
 #drawSVG-container .drawSVG .svg svg {
   width: 100%;
 }
+#drawSVG-container #Moves {
+  visibility: hidden;
+}
