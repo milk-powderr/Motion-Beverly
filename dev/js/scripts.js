@@ -45,7 +45,7 @@ mainTL.add(clockmotionspin1())
 
 GSDevTools.create();
 
-// MotionPathHelper.create("#R12")
+ MotionPathHelper.create("#R12")
 // MotionPathHelper.create("#R2")
 // MotionPathHelper.create("#R2")
 // MotionPathHelper.create("#R3")
