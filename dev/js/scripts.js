@@ -33,7 +33,7 @@ function oreozoomout(){
     .to(".up1",{ y:"-=170", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
     .to(".up2",{ y:"+=200", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
     .to("#words",{ x:"-=1095", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
-    .to("#middlewords",{ x:"+=1000", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
+    .to("#middlewords",{ x:"+=1103", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
     .to("#wholewords",{ x:"-=1150", duration: 0.8, delay: 5.4, ease: "power3.out"}, 0)
     .to("#Cookieroll",{ rotate: -360.5, duration: 1, ease: "power3.out", motionPath:{path:"#roll", align:"#roll"}, transformOrigin:"center", delay: 5.4, scale: 2.5,onComplete:test()}, 0)
     .to(".up1",{ y:"-=270", duration: 0.7, delay: 5.4, ease: "power3.out"}, 0)
