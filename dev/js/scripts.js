@@ -13,6 +13,7 @@ function oreozoomout(){
     gsap.set(".demo", { attr:{viewBox:"748 453 475.72 246"}, transformOrigin: "center"})
     gsap.set("#Row4", { alpha: 0})
     gsap.set("#words", { x:"+=1000"})
+    gsap.set("#middlewords", { x:"-=1200"})
     gsap.set("#Cookieroll", { transformOrigin:"center"})
     gsap.set("#wonderfilled", { transformOrigin:"center", x:"-=106", alpha: 0})
     ;
@@ -32,7 +33,8 @@ function oreozoomout(){
     .to(".up1",{ y:"-=170", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
     .to(".up2",{ y:"+=200", duration: 0.7, delay: 3.6, ease: "power3.out"}, 0)
     .to("#words",{ x:"-=1095", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
-    .to("#words",{ x:"-=1150", duration: 0.8, delay: 5.4, ease: "power3.out"}, 0)
+    .to("#middlewords",{ x:"+=1000", duration: 0.8, delay: 4, ease: "power3.out"}, 0)
+    .to("#wholewords",{ x:"-=1150", duration: 0.8, delay: 5.4, ease: "power3.out"}, 0)
     .to("#Cookieroll",{ rotate: -360.5, duration: 1, ease: "power3.out", motionPath:{path:"#roll", align:"#roll"}, transformOrigin:"center", delay: 5.4, scale: 2.5,onComplete:test()}, 0)
     .to(".up1",{ y:"-=270", duration: 0.7, delay: 5.4, ease: "power3.out"}, 0)
     .to(".up2",{ y:"+=360", duration: 0.7, delay: 5.4, ease: "power3.out"}, 0)
